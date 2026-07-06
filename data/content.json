@@ -1,0 +1,406 @@
+{
+  "_readme": "Single source of truth for all page copy, sourced from ICSCCI2027.docx. Edit values here — no component needs to change.",
+
+  "site": {
+    "shortName": "ICSCCI 2027",
+    "fullName": "1st IEEE International Conference on Smart Connectivity and Computational Intelligence 2027",
+    "acronym": "ICSCCI 2027",
+    "edition": "1st Edition",
+    "technicalSponsor": "IEEE Delhi Section",
+    "organizers": "Department of Computer Science Engineering and the Department of Electronics and Communication Engineering, Echelon Institute of Technology, Faridabad",
+    "host": "Echelon Institute of Technology (EIT), Faridabad",
+    "dateRange": "20–21 March 2027",
+    "venueShort": "Echelon Institute of Technology, Faridabad",
+    "email": "deanresearch@eitfaridabad.edu.in",
+    "phone": "+91-7983660661",
+    "submissionUrl": "#"
+  },
+
+  "nav": [
+    { "label": "Home", "href": "/" },
+    { "label": "About", "href": "/about" },
+    { "label": "Call for Papers", "href": "/call-for-papers" },
+    { "label": "Tracks", "href": "/tracks" },
+    { "label": "Important Dates", "href": "/important-dates" },
+    { "label": "Committee", "href": "/committee" },
+    { "label": "Speakers", "href": "/speakers" },
+    { "label": "Paper Submission", "href": "/paper-submission" },
+    { "label": "Registration", "href": "/registration" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+
+  "hero": {
+    "eyebrow": "IEEE Delhi Section — Technically Co-Sponsored",
+    "title": "ICSCCI 2027",
+    "titleLong": "Smart Connectivity and Computational Intelligence",
+    "subtitle": "Dedicated to advancing research and innovation at the intersection of intelligent communication systems and computational intelligence — jointly organized by the Department of Computer Science Engineering and the Department of Electronics and Communication Engineering at Echelon Institute of Technology, Faridabad.",
+    "dateLabel": "Conference Dates",
+    "dateValue": "20–21 March 2027",
+    "venueLabel": "Venue",
+    "venueValue": "EIT, Faridabad",
+    "ctaPrimary": { "label": "Submit a Paper", "href": "/paper-submission" },
+    "ctaSecondary": { "label": "Important Dates", "href": "/important-dates" },
+    "stats": [
+      { "value": 6, "suffix": "", "label": "Tracks" },
+      { "value": 1, "suffix": "st", "label": "Edition" },
+      { "value": 2027, "suffix": "", "label": "Year" }
+    ]
+  },
+
+  "about": {
+    "heading": "About the Conference",
+    "kicker": "About",
+    "paragraphs": [
+      "The 1st IEEE International Conference on Smart Connectivity and Computational Intelligence 2027 (ICSCCI 2027), technically co-sponsored by the IEEE Delhi Section, will be dedicated to advancing research and innovation at the intersection of intelligent communication systems and computational intelligence. It is jointly being organized by the Department of Computer Science Engineering and the Department of Electronics and Communication Engineering at Echelon Institute of Technology, Faridabad.",
+      "The conference aims to bring together leading academicians, researchers, industry professionals, and students to exchange knowledge and explore emerging technological trends.",
+      "ICSCCI 2027 focuses on the integration of next-generation connectivity technologies such as 5G/6G networks and the Internet of Things (IoT) with advanced computational intelligence techniques, including machine learning and deep learning. The conference will address critical challenges related to scalability, latency, reliability, security, and optimization in smart and autonomous systems. By fostering interdisciplinary collaboration between academia and industry, ICSCCI 2027 invites authors to submit original, unpublished research through the Microsoft Conference Management Toolkit, promoting innovative thinking and practical applications that contribute to the development of intelligent, sustainable, and future-ready digital infrastructures for smart societies."
+    ],
+    "institute": {
+      "heading": "Echelon Institute of Technology (EIT), Faridabad",
+      "description": "Established in 2007, EIT is a premier institution dedicated to academic excellence, innovation, and holistic development. EIT is affiliated with Guru Gobind Singh Indraprastha University, Delhi, and is approved by AICTE, Ministry of Education, and Government of India. At EIT, we strive to nurture technical and managerial leaders who drive change and innovation through a culture of inspiration, exploration, and continuous learning. We place a strong emphasis on experiential and outcome-based education, providing students with the practical skills and knowledge necessary to thrive in an ever-evolving global landscape."
+    },
+    "departments": [
+      {
+        "name": "Department of Computer Science and Engineering",
+        "description": "Enriched with competent and well-qualified faculty members to bring out the best in students. The department holds NBA Accreditation up to Session 2027-28. Since its inception in 2007, the Department has maintained a high growth rate and a strong dedication to providing engineering education, with state-of-the-art laboratories in Artificial Intelligence, Machine Learning, Data Science, Cloud Computing, Cyber Security, IoT, and Robotics. Industry-oriented training, seminars, workshops, expert lectures, hackathons, corporate interactions, and Personality Development Programs (PDP) round out students' technical and professional skills."
+      },
+      {
+        "name": "Department of Electronics and Communication Engineering",
+        "description": "Established in 2007, the ECE department is committed to academic excellence, innovation, and industry-oriented learning. Supported by experienced faculty and modern infrastructure, it offers hands-on training through advanced laboratories such as the Advanced Drone Lab, IoT, Robotics & Electronics Lab, Embedded System Design & Simulation Lab, and Advanced Communication Lab, with a strong focus on emerging technologies, research, skill development, and industry collaboration."
+      }
+    ]
+  },
+
+  "tracks": {
+    "heading": "Conference Tracks",
+    "kicker": "Scope",
+    "intro": "ICSCCI 2027 invites original, unpublished research contributions across the following six tracks.",
+    "items": [
+      {
+        "code": "T1",
+        "title": "Smart Communication Systems and Connectivity",
+        "topics": [
+          "5G/6G and beyond Wireless Networks",
+          "Software-Defined and Virtualized Networking",
+          "Satellite, Non-Terrestrial, UAV and RIS-assisted Communications",
+          "Communication Protocols, Architectures, QoS and QoE",
+          "AI-Native Networks and Intelligent Communication Networks",
+          "Signal Processing for Advanced Wireless Communications"
+        ]
+      },
+      {
+        "code": "T2",
+        "title": "Computational Intelligence, Data Analytics and Agentic AI",
+        "topics": [
+          "Machine Learning, Deep Learning and Reinforcement Learning",
+          "Explainable and Trustworthy AI",
+          "Foundation Models, Large Language Models (LLMs) and Generative AI (GAI)",
+          "Swarm Intelligence and Evolutionary Computing",
+          "Data Analytics and Big Data",
+          "Pattern Recognition and Intelligent Decision Systems",
+          "Agentic AI and Autonomous Intelligent Agents"
+        ]
+      },
+      {
+        "code": "T3",
+        "title": "Internet of Things (IoT), Edge and Cloud Computing",
+        "topics": [
+          "Internet of Things (IoT) and Industrial IoT (IIoT)",
+          "Edge, Fog and Cloud Computing",
+          "Distributed and Ubiquitous Computing Systems",
+          "Edge Intelligence, Edge AI and Tiny ML",
+          "Digital Twins and Smart Infrastructure",
+          "Smart Sensors, Embedded Systems and Connected Devices"
+        ]
+      },
+      {
+        "code": "T4",
+        "title": "Cybersecurity, Privacy and Trustworthy Computing",
+        "topics": [
+          "Network and Information Security and Cybersecurity",
+          "Digital Forensics and Threat Intelligence",
+          "AI Security, Privacy-Preserving AI, and Adversarial ML",
+          "Cryptography, Authentication and Access Control (AAC)",
+          "Secure IoT and Cyber-Physical Systems",
+          "Ethical and Responsible AI",
+          "Blockchain and Distributed Ledger Technologies"
+        ]
+      },
+      {
+        "code": "T5",
+        "title": "Intelligent Automation, Optimization and Control",
+        "topics": [
+          "Autonomous and Self-adaptive Systems",
+          "Multi-Agent Systems and Collaborative Intelligence",
+          "Intelligent Control and Decision-making",
+          "Optimization Algorithms and Computational Optimization",
+          "Resource Allocation and Scheduling",
+          "AI-Driven Automation and Industrial Intelligence",
+          "Digital Manufacturing and Smart Process Control"
+        ]
+      },
+      {
+        "code": "T6",
+        "title": "Smart Applications and Emerging Technologies",
+        "topics": [
+          "Smart Cities and Urban Intelligence",
+          "Industry 4.0, Industry 5.0 and Digital Transformation",
+          "AI Applications in Healthcare, Finance and Education",
+          "Intelligent Transportation and Mobility Systems",
+          "Cyber-Physical Systems and Human-Centric Computing",
+          "Quantum Computing and Quantum Machine Learning",
+          "Metaverse, Extended and Virtual Reality (XR/VR)",
+          "Digital Transformation Technologies",
+          "Green, Sustainable Computing and Future Digital Ecosystems"
+        ]
+      }
+    ]
+  },
+
+  "importantDates": {
+    "heading": "Important Dates",
+    "kicker": "Timeline",
+    "note": "All dates are as published; check this page for updates as the conference approaches.",
+    "items": [
+      { "label": "Call for Papers (CFP) Opens", "date": "10 August 2026" },
+      { "label": "Full Paper Submission Ends", "date": "10 November 2026" },
+      { "label": "Notification of Paper Acceptance", "date": "21 December 2026" },
+      { "label": "Author / Participant Registration Deadline", "date": "16 January 2027" },
+      { "label": "Camera-Ready Paper Submission", "date": "31 January 2027" },
+      { "label": "Conference Dates", "date": "20–21 March 2027" }
+    ]
+  },
+
+  "callForPapers": {
+    "heading": "Call for Papers",
+    "kicker": "Submission",
+    "intro": "ICSCCI 2027 invites authors to submit original, unpublished research through the Microsoft Conference Management Toolkit (Microsoft CMT), promoting innovative thinking and practical applications that contribute to intelligent, sustainable, and future-ready digital infrastructures for smart societies.",
+    "guidelines": [
+      "Papers must be written in English, 4–6 printed pages (10pt font), double-column IEEE conference format.",
+      "Submit original, unpublished work in PDF/MS Word format via Microsoft CMT.",
+      "Papers already submitted to other conferences/journals are not allowed.",
+      "Figures/graphs/plots must be of good resolution (600 dpi or more); tables must not be in pictorial format.",
+      "Do not use academic/social titles (Mr., Ms., Dr., Prof.) or positions (research scholar, professor, IEEE member, etc.) before author names or in affiliations.",
+      "Mention full address, affiliation, and email of all authors, and specify a corresponding author.",
+      "At least one author of an accepted paper must register and present the paper at the conference.",
+      "Authors must register their email with Microsoft CMT to submit papers.",
+      "Similarity/plagiarism score must not exceed 15%, per IEEE plagiarism guidelines."
+    ],
+    "downloads": [
+      { "label": "Download Call for Papers (PDF)", "href": "#" },
+      { "label": "Download Paper Template (Microsoft Word)", "href": "#" },
+      { "label": "Download Paper Template Instructions (LaTeX)", "href": "#" },
+      { "label": "Download LaTeX Template (ZIP, 700 KB)", "href": "#" }
+    ],
+    "submissionLink": { "label": "Submission Link — Microsoft CMT", "href": "#" },
+    "plagiarism": {
+      "heading": "Policy on Plagiarism",
+      "text": "Authors are requested to kindly refrain from plagiarism in any form. The similarity score of the paper should not be more than 15%.",
+      "linkLabel": "IEEE Plagiarism Guidelines",
+      "linkHref": "https://www.ieee.org/publications/rights/plagiarism/plagiarism.html"
+    },
+    "acknowledgement": "The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft, who bore all expenses, including costs for Azure cloud services as well as software development and support."
+  },
+
+  "speakers": {
+    "heading": "Keynote Speakers",
+    "kicker": "Speakers",
+    "intro": "To be updated soon."
+  },
+
+  "committee": {
+    "heading": "Organizing Committee",
+    "kicker": "People",
+    "leadership": [
+      {
+        "role": "Chief Patrons",
+        "members": [
+          { "name": "Prof. (Dr.) Mahesh Verma", "title": "Vice Chancellor, GGSIPU Delhi" },
+          { "name": "Shri Prabhat Agarwal", "title": "Chairman, EIT Faridabad" }
+        ]
+      },
+      {
+        "role": "Patrons",
+        "members": [
+          { "name": "Prof. (Dr.) Arvind Kumar Pandey", "title": "Director, EIT Faridabad" },
+          { "name": "Prof. (Dr.) B. K. Kanojia", "title": "Director, NIT Jalandhar" },
+          { "name": "Prof. (Dr.) Prerna Gaur", "title": "Campus Director, NSUT; Chair, IEEE India Council" }
+        ]
+      },
+      {
+        "role": "General Chair",
+        "members": [
+          { "name": "Prof. (Dr.) Pramod Singh", "title": "Dean R&D, EIT Faridabad" },
+          { "name": "Prof. (Dr.) Rajesh Singh", "title": "Dean Academics, EIT Faridabad" }
+        ]
+      },
+      {
+        "role": "Conference Chair",
+        "members": [
+          { "name": "Prof. (Dr.) Manisha Vashishta", "title": "EIT Faridabad" },
+          { "name": "Prof. (Dr.) Mukesh Kumar Saini", "title": "EIT Faridabad" }
+        ]
+      },
+      {
+        "role": "Conference Secretary",
+        "members": [
+          { "name": "Mr. Neeraj Joshi", "title": "EIT Faridabad" },
+          { "name": "Dr. Stuti Saxena", "title": "EIT Faridabad" }
+        ]
+      },
+      {
+        "role": "Convenor",
+        "members": [
+          { "name": "Ms. Sankeeta Jha", "title": "EIT Faridabad" },
+          { "name": "Ms. Ruchika Agarwal", "title": "EIT Faridabad" },
+          { "name": "Ms. Isha Gautam", "title": "EIT Faridabad" },
+          { "name": "Mr. Mittar Pal", "title": "EIT Faridabad" }
+        ]
+      },
+      {
+        "role": "Technical Program Chair",
+        "members": [
+          { "name": "Ms. Shefali Madan", "title": "EIT Faridabad" },
+          { "name": "Mr. Mohd. Danish", "title": "EIT Faridabad" }
+        ]
+      },
+      {
+        "role": "Finance & Publication Chair",
+        "members": [
+          { "name": "Mr. Shivam Agarwal", "title": "EIT Faridabad (Finance)" },
+          { "name": "Mr. Bilal Khan", "title": "EIT Faridabad (Publication)" }
+        ]
+      },
+      {
+        "role": "Publicity Committee",
+        "members": [{ "name": "Ms. Mahima Magon", "title": "EIT Faridabad" }]
+      },
+      {
+        "role": "Hospitality and Accommodation Committee",
+        "members": [{ "name": "Mr. Mohit Kapil", "title": "EIT Faridabad" }]
+      },
+      {
+        "role": "Organizing Committee",
+        "members": [{ "name": "Faculties of CSE and ECE", "title": "EIT Faridabad" }]
+      }
+    ],
+    "advisoryCommittee": [
+      { "name": "Prof. (Dr.) Rajnish Sharma", "affiliation": "VC, Chitkara University" },
+      { "name": "Prof. (Dr.) Asheesh Kumar Singh", "affiliation": "MNIT Prayagraj" },
+      { "name": "Prof. (Dr.) Alok Gupta", "affiliation": "IILM University" },
+      { "name": "Prof. (Dr.) Harish Parthsarathy", "affiliation": "NSUT, New Delhi" },
+      { "name": "Prof. (Dr.) Ravi Shankar Singh", "affiliation": "IIT BHU" },
+      { "name": "Prof. (Dr.) Suman Lata Tripathi", "affiliation": "SIT University, Pune" },
+      { "name": "Dr. Amit Kumar Singh", "affiliation": "IIT BHU" },
+      { "name": "Prof. (Dr.) Rekha Agarwal", "affiliation": "AMITY University" },
+      { "name": "Dr. Nachiketa Chakraborty", "affiliation": "University of Reading, UK" },
+      { "name": "Prof. (Dr.) Amit Prakash Singh", "affiliation": "GGSIPU, New Delhi" },
+      { "name": "Prof. (Dr.) Harsh Vikram Singh", "affiliation": "KNIT Sultanpur" },
+      { "name": "Dr. Dhananjay V Gadre", "affiliation": "NSUT, New Delhi" },
+      { "name": "Dr. Dimitrios A. Karras", "affiliation": "NKUA, Greece" },
+      { "name": "Dr. Niharika Anand Sharma", "affiliation": "IIIT Lucknow" },
+      { "name": "Dr. Saurabh Shukla", "affiliation": "IIIT Lucknow" },
+      { "name": "Dr. Varun Aragwal", "affiliation": "NIT Sikkim" },
+      { "name": "Dr. Nehal Shukla", "affiliation": "Columbus State University, USA" },
+      { "name": "Dr. Vishal Vishnoi", "affiliation": "NIT Sikkim" },
+      { "name": "Dr. Ankur Kumar", "affiliation": "IIIT Una" },
+      { "name": "Dr. Suneel Yadav", "affiliation": "IIIT Prayagraj" },
+      { "name": "Dr. Anil Yadav", "affiliation": "NIT Jalandhar" },
+      { "name": "Dr. Ankit Agarwal", "affiliation": "Northwestern University, USA" },
+      { "name": "Dr. Vikrant Varshney", "affiliation": "Synopsys, Bangalore" },
+      { "name": "Prof. (Dr.) Amit K Ahuja", "affiliation": "JSS Noida" },
+      { "name": "Dr. Raghav Vadhera", "affiliation": "Raytheon Technology, Boston, USA" },
+      { "name": "Prof. (Dr.) N. Guruprasad", "affiliation": "Don Bosco, Bangalore" },
+      { "name": "Prof. (Dr.) Mayank Garg", "affiliation": "ITS, Gr. Noida" },
+      { "name": "Prof. (Dr.) Vikram Bali", "affiliation": "MAIT, New Delhi" },
+      { "name": "Dr. Amit Kumar Haldar", "affiliation": "TUS Limerick, Ireland" },
+      { "name": "Prof. (Dr.) Brijesh Singh", "affiliation": "GCET, Greater Noida" },
+      { "name": "Dr. Tanmay Dubey", "affiliation": "IIIT Surat" },
+      { "name": "Dr. Shaswat Pathak", "affiliation": "CEO, AIC" },
+      { "name": "Kuljeet Kaur", "affiliation": "École de Technologie Supérieure, Montreal, Canada" },
+      { "name": "Dr. Subodh Kumar Tripathi", "affiliation": "DBRAIT, Port Blair, Andaman and Nicobar" },
+      { "name": "Dr. Ratneshwar Kumar Ratnesh", "affiliation": "NSUT, Delhi" },
+      { "name": "Dr. Manish Raj", "affiliation": "Galgotia University" },
+      { "name": "Dr. Somendra Shukla", "affiliation": "GNIT, Greater Noida" },
+      { "name": "Dr. Abhay Bansal", "affiliation": "Bennett University" },
+      { "name": "Dr. Suneet Gupta", "affiliation": "AIT-CSE, Chandigarh University" }
+    ],
+    "technicalProgramCommittee": [
+      { "name": "Dr. Neeraj Kumar", "affiliation": "GNIOT, Greater Noida" },
+      { "name": "Dr. Vineet Vishnoi", "affiliation": "SIET, Meerut" },
+      { "name": "Dr. A. K. Singh", "affiliation": "MIET, Meerut" },
+      { "name": "Dr. Nagresh Kumar", "affiliation": "Amity University, Jaipur" },
+      { "name": "Dr. Ankur Garg", "affiliation": "KIET University, Ghaziabad" },
+      { "name": "Dr. Anurag Dwivedi", "affiliation": "Galgotia University, Greater Noida" },
+      { "name": "Dr. Balwant Singh", "affiliation": "IMSEC Ghaziabad" },
+      { "name": "Dr. Shivesh Kumar Tripathi", "affiliation": "GLBITM, Gr. Noida" },
+      { "name": "Dr. Ashok Yadav", "affiliation": "GLBITM, Gr. Noida" },
+      { "name": "Dr. Ajay Gangwar", "affiliation": "Parul University, Gujarat" },
+      { "name": "Dr. Ramesh Verma", "affiliation": "IMSEC Ghaziabad" },
+      { "name": "Dr. Ajay Kumar Singh", "affiliation": "Jain University, Bangalore" },
+      { "name": "Dr. Pradeep Pant", "affiliation": "MIET, Meerut" },
+      { "name": "Dr. Sonia Juneja", "affiliation": "IMSEC Ghaziabad" },
+      { "name": "Dr. Anuradha Taluja", "affiliation": "AKGEC, Ghaziabad" },
+      { "name": "Dr. Sonali Mathur", "affiliation": "IMSEC Ghaziabad" },
+      { "name": "Dr. Raghuraj", "affiliation": "Galgotia University" },
+      { "name": "Dr. Amit Garg", "affiliation": "Manipal University, Jaipur" },
+      { "name": "Dr. Praveen Kumar Chakravarti", "affiliation": "MIET, Meerut" },
+      { "name": "Dr. Punit Mittal", "affiliation": "MIET, Meerut" },
+      { "name": "Dr. Rajkumar", "affiliation": "UPES, Dehradun" },
+      { "name": "Dr. Manuj Kumar Singh", "affiliation": "MJPRU, Bareilly" },
+      { "name": "Dr. Ramesh Kumar", "affiliation": "Chitkara University" },
+      { "name": "Dr. Kamal Singh Rawat", "affiliation": "MIET Kumaon" },
+      { "name": "Dr. Arun Uniyal", "affiliation": "Government Industrial Training Institute, Pantnagar" },
+      { "name": "Dr. Hari Shankar", "affiliation": "Chitkara University" },
+      { "name": "Dr. Vishal Mohan Gupta", "affiliation": "TMU Moradabad" },
+      { "name": "Dr. Navneet Vishnoi", "affiliation": "GNIOT, Greater Noida" },
+      { "name": "Dr. Ajay Kumar", "affiliation": "Marwadi University, Gujarat" },
+      { "name": "Dr. Vishal Jaiswal", "affiliation": "AKGEC, Ghaziabad" },
+      { "name": "Dr. Rakesh Kumar Maurya", "affiliation": "MJPRU, Bareilly" }
+    ]
+  },
+
+  "paperSubmission": {
+    "heading": "Paper Submission",
+    "kicker": "Submission",
+    "intro": "All papers submitted to the conference should be written in English with a maximum page length of 4–6 printed pages (10pt font) in double-column IEEE conference format.",
+    "guidelines": [
+      "Submit original, unpublished work in PDF/MS Word format via Microsoft CMT.",
+      "Papers already submitted to other conferences/journals are not allowed.",
+      "Figures/graphs/plots must be good resolution (600 dpi+); tables must not be pictorial.",
+      "Do not use titles (Mr., Ms., Dr., Prof.) or positions before author names or in affiliations.",
+      "Mention full address, affiliation, and email of all authors; specify a corresponding author.",
+      "Acceptance decisions are at the discretion of the Technical Program Committee.",
+      "At least one author of an accepted paper must register and present at the conference.",
+      "Authors must register their email with Microsoft CMT to submit papers."
+    ],
+    "submissionLink": { "label": "Submission Link — Microsoft CMT", "href": "#" }
+  },
+
+  "registration": {
+    "heading": "Registration",
+    "kicker": "Registration",
+    "intro": "Registration details will be updated soon."
+  },
+
+  "sponsors": {
+    "heading": "Technical Sponsor",
+    "kicker": "Supported By",
+    "items": [{ "name": "IEEE Delhi Section", "tier": "Technical Co-Sponsor" }]
+  },
+
+  "contact": {
+    "heading": "Contact Us",
+    "kicker": "Get in Touch",
+    "name": "Dr. Pramod Singh",
+    "title": "Dean R&D, EIT Faridabad",
+    "email": "deanresearch@eitfaridabad.edu.in",
+    "phone": "+91-7983660661",
+    "address": "Echelon Institute of Technology, Faridabad, Haryana, India"
+  },
+
+  "footer": {
+    "text": "ICSCCI 2027 · Echelon Institute of Technology, Faridabad",
+    "disclaimer": "Technically co-sponsored by the IEEE Delhi Section."
+  }
+}

@@ -1,0 +1,60 @@
+import Link from "next/link";
+import content from "@/data/content.json";
+import { PlaceholderLogo } from "@/components/PlaceholderLogo";
+
+export default function Footer() {
+  const { footer, site, nav, contact } = content;
+
+  return (
+    <footer className="border-t border-border bg-muted/60 text-foreground">
+      <div className="mx-auto max-w-content px-6 py-14">
+        <div className="grid gap-10 md:grid-cols-3">
+          <div>
+            <div className="flex items-center gap-3">
+              <PlaceholderLogo label="EIT" />
+              <span className="font-display text-lg font-bold text-primary">{site.shortName}</span>
+            </div>
+            <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">{footer.text}</p>
+            <p className="mt-2 text-xs text-muted-foreground/70">{footer.disclaimer}</p>
+          </div>
+
+          <div>
+            <h4 className="font-mono text-xs uppercase tracking-widest text-secondary">Navigate</h4>
+            <ul className="mt-4 grid grid-cols-2 gap-x-4 gap-y-2">
+              {nav.map((item) => (
+                <li key={item.href}>
+                  <Link href={item.href} className="text-sm text-foreground/70 hover:text-foreground">
+                    {item.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="font-mono text-xs uppercase tracking-widest text-secondary">Contact</h4>
+            <ul className="mt-4 space-y-2 text-sm text-foreground/70">
+              <li>
+                <a href={`mailto:${contact.email}`} className="hover:text-foreground">
+                  {contact.email}
+                </a>
+              </li>
+              <li>
+                <a href={`tel:${contact.phone}`} className="hover:text-foreground">
+                  {contact.phone}
+                </a>
+              </li>
+              <li className="text-muted-foreground">{contact.address}</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="mt-12 border-t border-border pt-6 text-center">
+          <p className="font-mono text-xs text-muted-foreground">
+            © {new Date().getFullYear()} {site.host}. Technically co-sponsored by {site.technicalSponsor}.
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+}

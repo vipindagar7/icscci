@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Color variables (:root + dark-mode override) are generated at
+   render time from config/theme.js — see lib/theme-css.js and
+   app/layout.js. Nothing hardcoded here. */
+
+/* Page-wise accent themes — wrap a page's content in one of these
+   classes (see each route's page.js) to shift its accent color
+   while every other token stays the same. */
+:root {
+  --page-accent: var(--accent);
+  --page-accent-foreground: var(--accent-foreground);
+}
+.theme-gold  { --page-accent: var(--accent);    --page-accent-foreground: var(--accent-foreground); }
+.theme-blue  { --page-accent: var(--secondary); --page-accent-foreground: var(--secondary-foreground); }
+.theme-navy  { --page-accent: var(--primary);   --page-accent-foreground: var(--primary-foreground); }
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: hsl(var(--accent));
+  color: hsl(var(--accent-foreground));
+}
+
+.section-kicker {
+  @apply font-mono text-eyebrow font-medium uppercase text-pageAccent;
+}
+
+.section-heading {
+  @apply font-display text-3xl font-semibold tracking-tight text-foreground md:text-4xl;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
