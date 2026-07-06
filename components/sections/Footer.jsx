@@ -1,6 +1,7 @@
 import Link from "next/link";
 import content from "@/data/content.json";
 import { PlaceholderLogo } from "@/components/PlaceholderLogo";
+import Image from "next/image";
 
 export default function Footer() {
   const { footer, site, nav, contact } = content;
@@ -11,7 +12,7 @@ export default function Footer() {
         <div className="grid gap-10 md:grid-cols-3">
           <div>
             <div className="flex items-center gap-3">
-              <PlaceholderLogo label="EIT" />
+              <Image src="/logo.png" alt="Logo" width={64} height={64} />
               <span className="font-display text-lg font-bold text-primary">{site.shortName}</span>
             </div>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">{footer.text}</p>
