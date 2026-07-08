@@ -40,10 +40,10 @@ export default function Committee() {
         <FadeIn className="mt-16">
           <h3 className="font-display text-lg font-semibold text-foreground">Advisory Committee</h3>
           <p className="mt-1 text-sm text-muted-foreground">
-            {committee.advisoryCommittee.length} advisors from institutions across India and abroad.
+            Advisors from institutions across India and abroad.
           </p>
           <div className="relative mt-6">
-            <Marquee pauseOnHover className="[--duration:60s]">
+            <Marquee pauseOnHover className="[--duration:100s]">
               {committee.advisoryCommittee.map((m, i) => (
                 <NameCard key={i} name={m.name} affiliation={m.affiliation} />
               ))}
@@ -56,10 +56,10 @@ export default function Committee() {
         <FadeIn className="mt-12" delay={0.1}>
           <h3 className="font-display text-lg font-semibold text-foreground">Technical Program Committee</h3>
           <p className="mt-1 text-sm text-muted-foreground">
-            {committee.technicalProgramCommittee.length} members reviewing submissions across all tracks.
+            Members reviewing submissions across all tracks.
           </p>
           <div className="relative mt-6">
-            <Marquee reverse pauseOnHover className="[--duration:70s]">
+            <Marquee reverse pauseOnHover className="[--duration:100s]">
               {committee.technicalProgramCommittee.map((m, i) => (
                 <NameCard key={i} name={m.name} affiliation={m.affiliation} />
               ))}
