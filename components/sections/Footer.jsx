@@ -12,8 +12,11 @@ export default function Footer() {
         <div className="grid gap-10 md:grid-cols-3">
           <div>
             <div className="flex items-center gap-3">
-              <Image src="/logo.png" alt="Logo" width={64} height={64} />
+              <Image src="/logo.jpeg" alt="Logo" width={64} height={64} />
               <span className="font-display text-lg font-bold text-primary">{site.shortName}</span>
+              <Link href="https://www.eitfaridabad.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
+                <Image src="/echelonLogo.webp" alt="Logo" width={128} height={128} />
+              </Link>
             </div>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">{footer.text}</p>
             <p className="mt-2 text-xs text-muted-foreground/70">{footer.disclaimer}</p>
@@ -52,7 +55,12 @@ export default function Footer() {
 
         <div className="mt-12 border-t border-border pt-6 text-center">
           <p className="font-mono text-xs text-muted-foreground">
-            © {new Date().getFullYear()} {site.host}. Technically co-sponsored by {site.technicalSponsor}.
+            © {new Date().getFullYear()} {site.host}. Designed and developed by <Link target="_blank" href={site.developerUrl} className="hover:text-foreground font-semibold underline decoration-dotted">
+              {site.developer}
+            </Link>.
+          </p>
+          <p className="mt-10 font-mono text-l text-muted-foreground">
+            The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
           </p>
         </div>
       </div>

@@ -8,9 +8,9 @@ import { cn } from "@/lib/utils";
  * renders a normal next/image — no other change needed anywhere
  * this component is used.
  */
-export function PlaceholderImage({ src, alt = "", label = "Image placeholder", className, priority = false }) {
+export function PlaceholderImage({ src, alt = "", label = "Image placeholder", className, priority = false ,width=0, height=0}) {
   if (src) {
-    return <Image src={src} alt={alt} fill priority={priority} className={cn("object-cover", className)} />;
+    return <Image src={src} alt={alt} width={width} height={height} priority={priority} className={cn("object-cover", className)} />;
   }
 
   return (

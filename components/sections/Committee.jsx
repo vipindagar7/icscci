@@ -43,7 +43,7 @@ export default function Committee() {
             Advisors from institutions across India and abroad.
           </p>
           <div className="relative mt-6">
-            <Marquee pauseOnHover className="[--duration:100s]">
+            <Marquee pauseOnHover className="[--duration:250s]">
               {committee.advisoryCommittee.map((m, i) => (
                 <NameCard key={i} name={m.name} affiliation={m.affiliation} />
               ))}
@@ -59,7 +59,7 @@ export default function Committee() {
             Members reviewing submissions across all tracks.
           </p>
           <div className="relative mt-6">
-            <Marquee reverse pauseOnHover className="[--duration:100s]">
+            <Marquee reverse pauseOnHover className="[--duration:200s]">
               {committee.technicalProgramCommittee.map((m, i) => (
                 <NameCard key={i} name={m.name} affiliation={m.affiliation} />
               ))}

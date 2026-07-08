@@ -25,10 +25,12 @@ export default function Hero() {
       {/* College / campus photo — replace via public/images/campus-hero.jpg */}
       <div className="absolute inset-0">
         <PlaceholderImage
-          src={null}
+          src={"/eit-banner.webp"}
           alt={`${site.host} campus`}
-          label={`${site.host} campus photo — drop file at public/images/campus-hero.jpg`}
+          label={`${site.host} campus photo`}
           className="absolute inset-0 h-full w-full"
+          width={1920}
+          height={1080}
           priority
         />
         <div className="absolute inset-0 bg-gradient-to-r from-surface via-surface/85 to-surface/60" />

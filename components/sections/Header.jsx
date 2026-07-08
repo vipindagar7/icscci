@@ -25,7 +25,7 @@ export default function Header() {
     >
       <div className="mx-auto flex max-w-content items-center justify-between gap-4 px-6 py-3">
         <Link href="/" className="flex items-center gap-3">
-          <Image src="/logo.png" alt="Logo" width={64} height={64} />
+          <Image src="/logo.jpeg" alt="Logo" width={64} height={64} />
           {/* <div className="flex flex-col leading-tight">
             <span className="font-display text-lg font-bold text-primary">{content.site.shortName}</span>
             <span className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
@@ -62,6 +62,9 @@ export default function Header() {
         <Button asChild variant="default" size="sm" className="hidden lg:inline-flex">
           <Link href={content.hero.ctaPrimary.href}>{content.hero.ctaPrimary.label}</Link>
         </Button>
+        <Link href="https://www.eitfaridabad.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
+          <Image src="/echelonLogo.webp" alt="Logo" width={128} height={128} />
+        </Link>
 
         <button aria-label="Toggle menu" onClick={() => setOpen((v) => !v)} className="text-primary lg:hidden">
           {open ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
