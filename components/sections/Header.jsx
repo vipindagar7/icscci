@@ -36,14 +36,14 @@ export default function Header() {
             alt="Logo"
             width={128}
             height={128}
-            className="h-16 w-16 shrink-0 object-contain md:h-20 md:w-20 block dark:hidden"
+            className="shrink-0 object-contain md:h-20 md:w-20 block dark:hidden"
           />
           <Image
             src="/echelonLogo-dark.webp"
             alt="Logo"
-            width={128}
-            height={128}
-            className="h-16 w-16 shrink-0 object-contain md:h-20 md:w-20 hidden dark:block"
+            width={164}
+            height={164}
+            className="shrink-0 object-contain md:h-20 md:w-20 hidden dark:block"
           />
         </Link>
 
@@ -82,7 +82,7 @@ export default function Header() {
             alt="Logo"
             width={128}
             height={128}
-            className="h-16 w-16 shrink-0 object-contain block dark:hidden"
+            className="h-32 w-32 shrink-0 object-contain block dark:hidden"
             priority
           />
           <Image
@@ -90,7 +90,7 @@ export default function Header() {
             alt="Logo"
             width={128}
             height={128}
-            className="h-16 w-16 shrink-0 object-contain hidden dark:block"
+            className="h-32 w-32 shrink-0 object-contain hidden dark:block"
             priority
           />
         </Link>

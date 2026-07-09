@@ -224,37 +224,36 @@
       {
         "role": "Patrons",
         "members": [
-          { "name": "Prof. (Dr.) Arvind Kumar Pandey", "title": "Director, EIT Faridabad" },
-          { "name": "Prof. (Dr.) B. K. Kanojia", "title": "Director, NIT Jalandhar" },
-          { "name": "Prof. (Dr.) Prerna Gaur", "title": "Campus Director, NSUT; Chair, IEEE India Council" }
+          { "name": "Prof. (Dr.) Arvind Kumar Pandey", "title": "Director, EIT Faridabad" }
         ]
       },
       {
         "role": "General Chair",
         "members": [
           { "name": "Prof. (Dr.) Pramod Singh", "title": "Dean R&D, EIT Faridabad" },
-          { "name": "Prof. (Dr.) Rajesh Singh", "title": "Dean Academics, EIT Faridabad" }
+          { "name": "Prof. (Dr.) Rajesh Singh", "title": "EIT Faridabad" }
         ]
       },
       {
         "role": "Conference Chair",
         "members": [
-          { "name": "Prof. (Dr.) Manisha Vashishta", "title": "EIT Faridabad" },
+          { "name": "Prof. (Dr.) Jitendra Yadav", "title": "EIT Faridabad" },
           { "name": "Prof. (Dr.) Mukesh Kumar Saini", "title": "EIT Faridabad" }
         ]
       },
       {
         "role": "Conference Secretary",
         "members": [
-          { "name": "Mr. Neeraj Joshi", "title": "EIT Faridabad" },
-          { "name": "Dr. Stuti Saxena", "title": "EIT Faridabad" }
+          { "name": "Dr. Manisha Vashishta", "title": "EIT Faridabad" },
+          { "name": "Mr. Neeraj Joshi", "title": "EIT Faridabad" }
+
         ]
       },
       {
         "role": "Convenor",
         "members": [
+          { "name": "Dr. Stuti Saxena", "title": "EIT Faridabad" },
           { "name": "Ms. Sankeeta Jha", "title": "EIT Faridabad" },
-          { "name": "Ms. Ruchika Agarwal", "title": "EIT Faridabad" },
           { "name": "Ms. Isha Gautam", "title": "EIT Faridabad" },
           { "name": "Mr. Mittar Pal", "title": "EIT Faridabad" }
         ]
@@ -263,7 +262,8 @@
         "role": "Technical Program Chair",
         "members": [
           { "name": "Ms. Shefali Madan", "title": "EIT Faridabad" },
-          { "name": "Mr. Mohd. Danish", "title": "EIT Faridabad" }
+          { "name": "Mr. Mohd. Danish", "title": "EIT Faridabad" },
+          { "name": "Ms. Ruchika Agarwal", "title": "EIT Faridabad" }
         ]
       },
       {
@@ -286,6 +286,13 @@
         "members": [{ "name": "Faculties of CSE and ECE", "title": "EIT Faridabad" }]
       }
     ],
+      "Honorary Advisory Committee": [
+						{ "name": "Prof. (Dr.) M. N. Hoda", "title": "Chair IEEE Delhi Section", "profile":"" },
+						{ "name": "Prof. (Dr.) Rajnish Sharma", "title": "VC, IEEE Delhi Section","profile":"" },
+						{ "name": "Prof. (Dr.) Prerna Gaur", "title": "Campus Director, NSUT, Chair, IEEE India Council","profile":""  },
+						{ "name": "Prof. (Dr.) Shyam S. Tyagi", "title": "Executive, IEEE Delhi Section","profile":"" }
+					],
+				
     "internationalAdvisoryCommittee": [
     { "name": "Dr. Nachiketa Chakraborty", "affiliation": "University of Reading, UK" },
     { "name": "Dr. Dimitrios A. Karras", "affiliation": "NKUA, Greece" },

@@ -36,26 +36,24 @@ export default function Committee() {
             </motion.div>
           ))}
         </Stagger>
-
+        {/*honary advisory committee */}
         <FadeIn className="mt-16">
-          <h3 className="font-display text-lg font-semibold text-foreground">Advisory Committee</h3>
-          {/* national */}
-          <p className="mt-1 text-sm text-muted-foreground">
-            Advisors from institutions across India.
-          </p>
+          <h3 className="font-display text-lg font-semibold text-foreground">Honorary Advisory Committee</h3>
           <div className="relative mt-6">
-            <Marquee pauseOnHover className="[--duration:250s]">
-              {committee.nationalAdvisoryCommittee.map((m, i) => (
-                <NameCard key={i} name={m.name} affiliation={m.affiliation} />
+            <Marquee reverse pauseOnHover className="[--duration:20s]">
+              {committee["Honorary Advisory Committee"].map((m, i) => (
+                <NameCard key={i} name={m.name} affiliation={m.title} />
+
               ))}
             </Marquee>
             <div className="pointer-events-none absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-muted to-transparent" />
             <div className="pointer-events-none absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-muted to-transparent" />
           </div>
-          {/* international */}
-          <p className="mt-1 text-sm text-muted-foreground">
-            Advisors from institutions from abroad.
-          </p>
+        </FadeIn>
+
+        {/* international advisory */}
+        <FadeIn className="mt-16">
+          <h3 className="font-display text-lg font-semibold text-foreground">International Advisory Committee</h3>
           <div className="relative mt-6">
             <Marquee pauseOnHover reverse className="[--duration:50s]">
               {committee.internationalAdvisoryCommittee.map((m, i) => (
@@ -66,6 +64,23 @@ export default function Committee() {
             <div className="pointer-events-none absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-muted to-transparent" />
           </div>
         </FadeIn>
+
+        
+        {/* national advisory */}
+
+        <FadeIn className="mt-16">
+          <h3 className="font-display text-lg font-semibold text-foreground">National Advisory Committee</h3>
+          <div className="relative mt-6">
+            <Marquee pauseOnHover className="[--duration:250s]">
+              {committee.nationalAdvisoryCommittee.map((m, i) => (
+                <NameCard key={i} name={m.name} affiliation={m.affiliation} />
+              ))}
+            </Marquee>
+            <div className="pointer-events-none absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-muted to-transparent" />
+            <div className="pointer-events-none absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-muted to-transparent" />
+          </div>
+        </FadeIn>
+
 
         <FadeIn className="mt-12" delay={0.1}>
           <h3 className="font-display text-lg font-semibold text-foreground">Technical Program Committee</h3>
