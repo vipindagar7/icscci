@@ -39,12 +39,26 @@ export default function Committee() {
 
         <FadeIn className="mt-16">
           <h3 className="font-display text-lg font-semibold text-foreground">Advisory Committee</h3>
+          {/* national */}
           <p className="mt-1 text-sm text-muted-foreground">
-            Advisors from institutions across India and abroad.
+            Advisors from institutions across India.
           </p>
           <div className="relative mt-6">
             <Marquee pauseOnHover className="[--duration:250s]">
-              {committee.advisoryCommittee.map((m, i) => (
+              {committee.nationalAdvisoryCommittee.map((m, i) => (
+                <NameCard key={i} name={m.name} affiliation={m.affiliation} />
+              ))}
+            </Marquee>
+            <div className="pointer-events-none absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-muted to-transparent" />
+            <div className="pointer-events-none absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-muted to-transparent" />
+          </div>
+          {/* international */}
+          <p className="mt-1 text-sm text-muted-foreground">
+            Advisors from institutions from abroad.
+          </p>
+          <div className="relative mt-6">
+            <Marquee pauseOnHover reverse className="[--duration:50s]">
+              {committee.internationalAdvisoryCommittee.map((m, i) => (
                 <NameCard key={i} name={m.name} affiliation={m.affiliation} />
               ))}
             </Marquee>
@@ -59,7 +73,7 @@ export default function Committee() {
             Members reviewing submissions across all tracks.
           </p>
           <div className="relative mt-6">
-            <Marquee reverse pauseOnHover className="[--duration:200s]">
+            <Marquee pauseOnHover className="[--duration:200s]">
               {committee.technicalProgramCommittee.map((m, i) => (
                 <NameCard key={i} name={m.name} affiliation={m.affiliation} />
               ))}
