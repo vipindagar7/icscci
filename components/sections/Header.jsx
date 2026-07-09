@@ -24,14 +24,27 @@ export default function Header() {
       className="sticky top-0 z-50 border-b border-border bg-background/95 text-foreground backdrop-blur"
     >
       <div className="mx-auto flex max-w-content items-center justify-between gap-4 px-6 py-3">
-        <Link href="/" className="flex items-center gap-3">
-          <Image src="/logo.jpeg" alt="Logo" width={64} height={64} />
-          {/* <div className="flex flex-col leading-tight">
-            <span className="font-display text-lg font-bold text-primary">{content.site.shortName}</span>
-            <span className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
-              {content.site.venueShort}
-            </span>
-          </div> */}
+        {/* echelon logo */}
+        <Link
+          href="https://www.eitfaridabad.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex shrink-0 items-center gap-3"
+        >
+          <Image
+            src="/echelonLogo-light.webp"
+            alt="Logo"
+            width={128}
+            height={128}
+            className="h-16 w-16 shrink-0 object-contain md:h-20 md:w-20 block dark:hidden"
+          />
+          <Image
+            src="/echelonLogo-dark.webp"
+            alt="Logo"
+            width={128}
+            height={128}
+            className="h-16 w-16 shrink-0 object-contain md:h-20 md:w-20 hidden dark:block"
+          />
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex">
@@ -62,8 +75,24 @@ export default function Header() {
         <Button asChild variant="default" size="sm" className="hidden lg:inline-flex">
           <Link href={content.hero.ctaPrimary.href}>{content.hero.ctaPrimary.label}</Link>
         </Button>
-        <Link href="https://www.eitfaridabad.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
-          <Image src="/echelonLogo.webp" alt="Logo" width={128} height={128} />
+        {/* icscci logo */}
+        <Link href="/" className="flex shrink-0 items-center gap-3">
+          <Image
+            src="/logo-light.png"
+            alt="Logo"
+            width={128}
+            height={128}
+            className="h-16 w-16 shrink-0 object-contain block dark:hidden"
+            priority
+          />
+          <Image
+            src="/logo-dark.png"
+            alt="Logo"
+            width={128}
+            height={128}
+            className="h-16 w-16 shrink-0 object-contain hidden dark:block"
+            priority
+          />
         </Link>
 
         <button aria-label="Toggle menu" onClick={() => setOpen((v) => !v)} className="text-primary lg:hidden">

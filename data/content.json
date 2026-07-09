@@ -22,14 +22,14 @@
     { "label": "Home", "href": "/" },
     { "label": "About", "href": "/about" },
     { "label": "Call for Papers", "href": "/call-for-papers" },
-    { "label": "Tracks", "href": "/tracks" },
     { "label": "Important Dates", "href": "/important-dates" },
     { "label": "Committee", "href": "/committee" },
     { "label": "Speakers", "href": "/speakers" },
     { "label": "Paper Submission", "href": "/paper-submission" },
-    { "label": "Registration", "href": "/registration" },
-    { "label": "Contact", "href": "/contact" }
+    { "label": "Registration", "href": "/registration" }
+
   ],
+
 
   "hero": {
     "eyebrow": "IEEE Delhi Section — Technically Co-Sponsored",
@@ -189,10 +189,10 @@
       "Similarity/plagiarism score must not exceed 15%, per IEEE plagiarism guidelines."
     ],
     "downloads": [
-      { "label": "Download Call for Papers (PDF)", "href": "#" },
-      { "label": "Download Paper Template (Microsoft Word)", "href": "#" },
-      { "label": "Download Paper Template Instructions (LaTeX)", "href": "#" },
-      { "label": "Download LaTeX Template (ZIP, 700 KB)", "href": "#" }
+      { "label": "Download Call for Papers (PDF)", "href": "/call-for-papers.pdf" },
+      { "label": "Download Paper Template (Microsoft Word)", "href": "/conference_template.docx" },
+      { "label": "Download Paper Template Instructions (LaTeX)", "href": "/Paper_Latex_Template_Instructions.pdf" },
+      { "label": "Download LaTeX Template (ZIP, 700 KB)", "href": "/ICSCCI27_conference-latex-template_10-17-19.zip" }
     ],
     "submissionLink": { "label": "Submission Link — Microsoft CMT", "href": "#" },
     "plagiarism": {

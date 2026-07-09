@@ -9,7 +9,7 @@ export default function About() {
   const { about } = content;
 
   return (
-    <section className="mx-auto max-w-content px-6 py-20 md:py-28">
+    <section className="mx-auto max-w-content px-6 py-20 md:py-28 text-justify">
       <FadeIn>
         <p className="section-kicker">{about.kicker}</p>
         <h2 className="section-heading mt-2">{about.heading}</h2>

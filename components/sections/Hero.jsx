@@ -21,7 +21,7 @@ export default function Hero() {
   const { hero, site } = content;
 
   return (
-    <section className="relative overflow-hidden bg-surface text-surface-foreground">
+    <section className="relative overflow-hidden bg-surface text-surface-foreground text-justify">
       {/* College / campus photo — replace via public/images/campus-hero.jpg */}
       <div className="absolute inset-0">
         <PlaceholderImage

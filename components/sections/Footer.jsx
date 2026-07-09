@@ -12,11 +12,49 @@ export default function Footer() {
         <div className="grid gap-10 md:grid-cols-3">
           <div>
             <div className="flex items-center gap-3">
-              <Image src="/logo.jpeg" alt="Logo" width={64} height={64} />
-              <span className="font-display text-lg font-bold text-primary">{site.shortName}</span>
-              <Link href="https://www.eitfaridabad.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
-                <Image src="/echelonLogo.webp" alt="Logo" width={128} height={128} />
+              {/* icscci logo */}
+              <Link href="/" className="flex shrink-0 items-center gap-3">
+                <Image
+                  src="/logo-light.png"
+                  alt="Logo"
+                  width={64}
+                  height={64}
+                  className="h-16 w-16 shrink-0 object-contain block dark:hidden"
+                  priority
+                />
+                <Image
+                  src="/logo-dark.png"
+                  alt="Logo"
+                  width={64}
+                  height={64}
+                  className="h-16 w-16 shrink-0 object-contain hidden dark:block"
+                  priority
+                />
               </Link>
+              <span className="font-display text-lg font-bold text-primary">{site.shortName}</span>
+              {/* echelon logo */}
+              <Link
+                href="https://www.eitfaridabad.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex shrink-0 items-center gap-3"
+              >
+                <Image
+                  src="/echelonLogo-light.webp"
+                  alt="Logo"
+                  width={128}
+                  height={128}
+                  className="h-16 w-16 shrink-0 object-contain md:h-20 md:w-20 block dark:hidden"
+                />
+                <Image
+                  src="/echelonLogo-dark.webp"
+                  alt="Logo"
+                  width={128}
+                  height={128}
+                  className="h-16 w-16 shrink-0 object-contain md:h-20 md:w-20 hidden dark:block"
+                />
+              </Link>
+
             </div>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">{footer.text}</p>
             <p className="mt-2 text-xs text-muted-foreground/70">{footer.disclaimer}</p>
