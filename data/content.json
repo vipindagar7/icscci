@@ -189,7 +189,6 @@
       "Similarity/plagiarism score must not exceed 15%, per IEEE plagiarism guidelines."
     ],
     "downloads": [
-      { "label": "Download Call for Papers (PDF)", "href": "/call-for-papers.pdf" },
       { "label": "Download Paper Template (Microsoft Word)", "href": "/conference_template.docx" },
       { "label": "Download Paper Template Instructions (LaTeX)", "href": "/Paper_Latex_Template_Instructions.pdf" },
       { "label": "Download LaTeX Template (ZIP, 700 KB)", "href": "/ICSCCI27_conference-latex-template_10-17-19.zip" }

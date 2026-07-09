@@ -5,6 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { BorderBeam } from "@/components/magicui/border-beam";
 import { FadeIn } from "@/components/motion/FadeIn";
 import Tracks from "./Tracks";
+import { DownloadsList } from "./DownloadList";
 
 export default function CallForPapers() {
   const cfp = content.callForPapers;
@@ -40,19 +41,7 @@ export default function CallForPapers() {
                   Downloads
                 </h3>
 
-                <ul className="mt-4 space-y-3">
-                  {cfp.downloads.map((d) => (
-                    <li key={d.label}>
-                      <a
-                        href={d.href}
-                        download
-                        className="text-sm text-secondary underline-offset-2 hover:underline"
-                      >
-                        {d.label}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
+                <DownloadsList downloads={cfp.downloads} />
 
                 <Button asChild variant="accent" className="mt-6 w-full">
                   <a href={cfp.submissionLink.href}>
