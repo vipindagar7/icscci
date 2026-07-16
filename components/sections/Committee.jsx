@@ -5,6 +5,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Marquee } from "@/components/magicui/marquee";
 import { FadeIn, Stagger, staggerItem } from "@/components/motion/FadeIn";
 import { motion } from "framer-motion";
+import { PlaceholderImage } from "../PlaceholderImage";
+import { div } from "framer-motion/client";
 
 export default function Committee() {
   const committee = content.committee;
@@ -57,7 +59,27 @@ export default function Committee() {
           <div className="relative mt-6">
             <Marquee pauseOnHover reverse className="[--duration:50s]">
               {committee.internationalAdvisoryCommittee.map((m, i) => (
-                <NameCard key={i} name={m.name} affiliation={m.affiliation} />
+                <div
+                  key={i}
+                  className="flex w-[280px] flex-shrink-0 flex-col rounded-lg border border-border bg-card p-4"
+                >
+                  <div className="mx-auto h-32 w-32 overflow-hidden rounded-lg border border-border">
+                    <PlaceholderImage
+                      src={m.profile}
+                      height={128}
+                      width={128}
+                      label={m.name}
+                      className="h-full w-full object-cover"
+                    />
+                  </div>
+
+                  <div className="mt-4">
+                    <NameCard
+                      name={m.name}
+                      affiliation={m.affiliation}
+                    />
+                  </div>
+                </div>
               ))}
             </Marquee>
             <div className="pointer-events-none absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-muted to-transparent" />
@@ -65,7 +87,7 @@ export default function Committee() {
           </div>
         </FadeIn>
 
-        
+
         {/* national advisory */}
 
         <FadeIn className="mt-16">

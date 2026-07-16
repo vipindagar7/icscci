@@ -32,10 +32,10 @@
 
 
   "hero": {
-    "eyebrow": "IEEE Delhi Section — Technically Co-Sponsored",
+    "eyebrow": "IEEE Delhi Section — Technically Sponsored",
     "title": "ICSCCI 2027",
     "titleLong": "International Conference on Smart Connectivity and Computational Intelligence",
-    "subtitle": "The 1st IEEE International Conference on Smart Connectivity and Computational Intelligence 2027 (ICSCCI 2027), technically co-sponsored by the IEEE Delhi Section, will be dedicated to advancing research and innovation at the intersection of intelligent communication systems and computational intelligence. It is jointly being organized by the Department of Computer Science Engineering and the Department of Electronics and Communication Engineering at Echelon Institute of Technology, Faridabad. The conference aims to bring together leading academicians, researchers, industry professionals, and students to exchange knowledge and explore emerging technological trends.",
+    "subtitle": "The 1st IEEE International Conference on Smart Connectivity and Computational Intelligence 2027 (ICSCCI 2027), technically sponsored by the IEEE Delhi Section, will be dedicated to advancing research and innovation at the intersection of intelligent communication systems and computational intelligence. It is jointly being organized by the Department of Computer Science Engineering and the Department of Electronics and Communication Engineering at Echelon Institute of Technology, Faridabad. The conference aims to bring together leading academicians, researchers, industry professionals, and students to exchange knowledge and explore emerging technological trends.",
     "dateLabel": "Conference Dates",
     "dateValue": "10–11 July 2027",
     "venueLabel": "Venue",
@@ -53,7 +53,7 @@
     "heading": "About the Conference",
     "kicker": "About",
     "paragraphs": [
-      "The 1st IEEE International Conference on Smart Connectivity and Computational Intelligence 2027 (ICSCCI 2027), technically co-sponsored by the IEEE Delhi Section, will be dedicated to advancing research and innovation at the intersection of intelligent communication systems and computational intelligence. It is jointly being organized by the Department of Computer Science Engineering and the Department of Electronics and Communication Engineering at Echelon Institute of Technology, Faridabad.",
+      "The 1st IEEE International Conference on Smart Connectivity and Computational Intelligence 2027 (ICSCCI 2027), technically sponsored by the IEEE Delhi Section, will be dedicated to advancing research and innovation at the intersection of intelligent communication systems and computational intelligence. It is jointly being organized by the Department of Computer Science Engineering and the Department of Electronics and Communication Engineering at Echelon Institute of Technology, Faridabad.",
       "The conference aims to bring together leading academicians, researchers, industry professionals, and students to exchange knowledge and explore emerging technological trends.",
       "ICSCCI 2027 focuses on the integration of next-generation connectivity technologies such as 5G/6G networks and the Internet of Things (IoT) with advanced computational intelligence techniques, including machine learning and deep learning. The conference will address critical challenges related to scalability, latency, reliability, security, and optimization in smart and autonomous systems. By fostering interdisciplinary collaboration between academia and industry, ICSCCI 2027 invites authors to submit original, unpublished research through the Microsoft Conference Management Toolkit, promoting innovative thinking and practical applications that contribute to the development of intelligent, sustainable, and future-ready digital infrastructures for smart societies."
     ],
@@ -206,7 +206,11 @@
   "speakers": {
     "heading": "Keynote Speakers",
     "kicker": "Speakers",
-    "intro": "To be updated soon."
+    "intro": "To be updated soon.",
+    "list":[
+        { "name": "Prof. Dimitrios A. Karras, PhD", "affiliation": "National and Kapodistrian University of Athens (NKUA), Greece", "profile": "/prof-dimitrios-a-karras.png" },
+  { "name": "Prof. (Dr.) Ali Soofastaei", "affiliation": "University of Queensland, Australia", "profile": "/prof-dr-ali-soofastaei.png" }
+    ]
   },
 
   "committee": {
@@ -261,24 +265,24 @@
         "role": "Technical Program Chair",
         "members": [
           { "name": "Ms. Shefali Madan", "title": "EIT Faridabad" },
-          { "name": "Mr. Mohd. Danish", "title": "EIT Faridabad" },
-          { "name": "Ms. Ruchika Agarwal", "title": "EIT Faridabad" }
+          { "name": "Mr. Mohd. Danish", "title": "EIT Faridabad" }
+          
         ]
       },
       {
         "role": "Finance & Publication Chair",
         "members": [
-          { "name": "Mr. Shivam Agarwal", "title": "EIT Faridabad (Finance)" },
-          { "name": "Mr. Bilal Khan", "title": "EIT Faridabad (Publication)" }
+          { "name": "Ms. Ruchika Agarwal", "title": "EIT Faridabad" },
+          { "name": "Mr. Bilal Khan", "title": "EIT Faridabad" }
         ]
       },
       {
         "role": "Publicity Committee",
-        "members": [{ "name": "Ms. Mahima Magon", "title": "EIT Faridabad" }]
+        "members": [{ "name": "Prof. (Dr.) Sunil Verma", "title": "EIT Faridabad" }]
       },
       {
         "role": "Hospitality and Accommodation Committee",
-        "members": [{ "name": "Mr. Mohit Kapil", "title": "EIT Faridabad" }]
+        "members": [{ "name": "Ms. Mahima Magon", "title": "EIT Faridabad" }]
       },
       {
         "role": "Organizing Committee",
@@ -292,15 +296,15 @@
 						{ "name": "Prof. (Dr.) Shyam S. Tyagi", "title": "Executive, IEEE Delhi Section","profile":"" }
 					],
 				
-    "internationalAdvisoryCommittee": [
-    { "name": "Dr. Nachiketa Chakraborty", "affiliation": "University of Reading, UK" },
-    { "name": "Dr. Dimitrios A. Karras", "affiliation": "NKUA, Greece" },
-    { "name": "Dr. Nehal Shukla", "affiliation": "Columbus State University, USA" },
-    { "name": "Dr. Ankit Agarwal", "affiliation": "Northwestern University, USA" },
-    { "name": "Dr. Raghav Vadhera", "affiliation": "Raytheon Technology, Boston, USA" },
-    { "name": "Dr. Amit Kumar Haldar", "affiliation": "TUS Limerick, Ireland" },
-    { "name": "Kuljeet Kaur", "affiliation": "École de Technologie Supérieure, Montreal, Canada" }
-  ],
+   "internationalAdvisoryCommittee": [
+  { "name": "Prof. Dimitrios A. Karras, PhD", "affiliation": "National and Kapodistrian University of Athens (NKUA), Greece", "profile": "/prof-dimitrios-a-karras.png" },
+  { "name": "Dr. Nilesh Pandey", "affiliation": "Intel Corp., Texas, USA", "profile": "" },
+  { "name": "Prof. (Dr.) Ali Soofastaei", "affiliation": "University of Queensland, Australia", "profile": "/prof-dr-ali-soofastaei.png" },
+  { "name": "Prof. (Dr.) Anesh Kumar Maharaj", "affiliation": "University of KwaZulu-Natal, Durban, South Africa", "profile": "/prof-dr-anesh-kumar-maharaj.png" },
+  { "name": "Dr. Vishal Krishna Singh", "affiliation": "University of Essex, Colchester, United Kingdom", "profile": "/dr-vishal-krishna-singh.png" },
+  { "name": "Dr. Krisanu Roy", "affiliation": "University of Waikato, Hamilton, New Zealand", "profile": "/dr-krisanu-roy.png" }
+],
+
     "nationalAdvisoryCommittee": [
     { "name": "Prof. (Dr.) Rajnish Sharma", "affiliation": "VC, Chitkara University" },
     { "name": "Prof. (Dr.) Asheesh Kumar Singh", "affiliation": "MNIT Prayagraj" },
@@ -396,7 +400,7 @@
   "sponsors": {
     "heading": "Technical Sponsor",
     "kicker": "Supported By",
-    "items": [{ "name": "IEEE Delhi Section", "tier": "Technical Co-Sponsor" }]
+    "items": [{ "name": "IEEE Delhi Section", "tier": "Technical Sponsor" }]
   },
 
   "contact": {
@@ -411,6 +415,6 @@
 
   "footer": {
     "text": "ICSCCI 2027 · Echelon Institute of Technology, Faridabad",
-    "disclaimer": "Technically co-sponsored by the IEEE Delhi Section."
+    "disclaimer": "Technically sponsored by the IEEE Delhi Section."
   }
 }
