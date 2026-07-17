@@ -304,7 +304,8 @@
   { "name": "Prof. (Dr.) Ali Soofastaei", "affiliation": "University of Queensland, Australia", "profile": "/prof-dr-ali-soofastaei.png" },
   { "name": "Prof. (Dr.) Anesh Kumar Maharaj", "affiliation": "University of KwaZulu-Natal, Durban, South Africa", "profile": "/prof-dr-anesh-kumar-maharaj.png" },
   { "name": "Dr. Vishal Krishna Singh", "affiliation": "University of Essex, Colchester, United Kingdom", "profile": "/dr-vishal-krishna-singh.png" },
-  { "name": "Dr. Krisanu Roy", "affiliation": "University of Waikato, Hamilton, New Zealand", "profile": "/dr-krisanu-roy.png" }
+  { "name": "Dr. Krisanu Roy", "affiliation": "University of Waikato, Hamilton, New Zealand", "profile": "/dr-krisanu-roy.png" },
+  { "name": "More To Be Announced", "affiliation": "More To Be Announced", "profile": "" }
 ],
 
     "nationalAdvisoryCommittee": [
