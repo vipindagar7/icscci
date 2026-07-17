@@ -11,33 +11,31 @@
     "host": "Echelon Institute of Technology (EIT), Faridabad",
     "dateRange": "20–21 March 2027",
     "venueShort": "Echelon Institute of Technology, Faridabad",
-    "email": "deanresearch@eitfaridabad.co.in",
+    "email": "deanresearch@eitfaridabad.edu.in",
     "phone": "+91-7983660661",
-    "submissionUrl": "#",
-    "developerUrl": "https://www.linkedin.com/in/vipindagar07/",
-    "developer": "Vipin Dagar"
+    "submissionUrl": "#"
   },
 
   "nav": [
     { "label": "Home", "href": "/" },
     { "label": "About", "href": "/about" },
     { "label": "Call for Papers", "href": "/call-for-papers" },
+    { "label": "Tracks", "href": "/tracks" },
     { "label": "Important Dates", "href": "/important-dates" },
     { "label": "Committee", "href": "/committee" },
     { "label": "Speakers", "href": "/speakers" },
     { "label": "Paper Submission", "href": "/paper-submission" },
-    { "label": "Registration", "href": "/registration" }
-
+    { "label": "Registration", "href": "/registration" },
+    { "label": "Contact", "href": "/contact" }
   ],
 
-
   "hero": {
-    "eyebrow": "IEEE Delhi Section — Technically Sponsored",
+    "eyebrow": "IEEE Delhi Section — Technically Co-Sponsored",
     "title": "ICSCCI 2027",
-    "titleLong": "International Conference on Smart Connectivity and Computational Intelligence",
-    "subtitle": "The 1st IEEE International Conference on Smart Connectivity and Computational Intelligence 2027 (ICSCCI 2027), technically sponsored by the IEEE Delhi Section, will be dedicated to advancing research and innovation at the intersection of intelligent communication systems and computational intelligence. It is jointly being organized by the Department of Computer Science Engineering and the Department of Electronics and Communication Engineering at Echelon Institute of Technology, Faridabad. The conference aims to bring together leading academicians, researchers, industry professionals, and students to exchange knowledge and explore emerging technological trends.",
+    "titleLong": "Smart Connectivity and Computational Intelligence",
+    "subtitle": "Dedicated to advancing research and innovation at the intersection of intelligent communication systems and computational intelligence — jointly organized by the Department of Computer Science Engineering and the Department of Electronics and Communication Engineering at Echelon Institute of Technology, Faridabad.",
     "dateLabel": "Conference Dates",
-    "dateValue": "10–11 July 2027",
+    "dateValue": "20–21 March 2027",
     "venueLabel": "Venue",
     "venueValue": "EIT, Faridabad",
     "ctaPrimary": { "label": "Submit a Paper", "href": "/paper-submission" },
@@ -53,7 +51,7 @@
     "heading": "About the Conference",
     "kicker": "About",
     "paragraphs": [
-      "The 1st IEEE International Conference on Smart Connectivity and Computational Intelligence 2027 (ICSCCI 2027), technically sponsored by the IEEE Delhi Section, will be dedicated to advancing research and innovation at the intersection of intelligent communication systems and computational intelligence. It is jointly being organized by the Department of Computer Science Engineering and the Department of Electronics and Communication Engineering at Echelon Institute of Technology, Faridabad.",
+      "The 1st IEEE International Conference on Smart Connectivity and Computational Intelligence 2027 (ICSCCI 2027), technically co-sponsored by the IEEE Delhi Section, will be dedicated to advancing research and innovation at the intersection of intelligent communication systems and computational intelligence. It is jointly being organized by the Department of Computer Science Engineering and the Department of Electronics and Communication Engineering at Echelon Institute of Technology, Faridabad.",
       "The conference aims to bring together leading academicians, researchers, industry professionals, and students to exchange knowledge and explore emerging technological trends.",
       "ICSCCI 2027 focuses on the integration of next-generation connectivity technologies such as 5G/6G networks and the Internet of Things (IoT) with advanced computational intelligence techniques, including machine learning and deep learning. The conference will address critical challenges related to scalability, latency, reliability, security, and optimization in smart and autonomous systems. By fostering interdisciplinary collaboration between academia and industry, ICSCCI 2027 invites authors to submit original, unpublished research through the Microsoft Conference Management Toolkit, promoting innovative thinking and practical applications that contribute to the development of intelligent, sustainable, and future-ready digital infrastructures for smart societies."
     ],
@@ -164,12 +162,12 @@
     "kicker": "Timeline",
     "note": "All dates are as published; check this page for updates as the conference approaches.",
     "items": [
-      { "label": "Call for Papers (CFP) Opens", "date": "10 November 2026" },
-      { "label": "Full Paper Submission Ends", "date": "15 February 2027" },
-      { "label": "Notification of Paper Acceptance", "date": "20 March 2027" },
-      { "label": "Author / Participant Registration Deadline", "date": "10 April 2027" },
-      { "label": "Camera-Ready Paper Submission", "date": "30 April 2027" },
-      { "label": "Conference Dates", "date": "10–11 July 2027" }
+      { "label": "Call for Papers (CFP) Opens", "date": "10 August 2026" },
+      { "label": "Full Paper Submission Ends", "date": "10 November 2026" },
+      { "label": "Notification of Paper Acceptance", "date": "21 December 2026" },
+      { "label": "Author / Participant Registration Deadline", "date": "16 January 2027" },
+      { "label": "Camera-Ready Paper Submission", "date": "31 January 2027" },
+      { "label": "Conference Dates", "date": "20–21 March 2027" }
     ]
   },
 
@@ -189,9 +187,10 @@
       "Similarity/plagiarism score must not exceed 15%, per IEEE plagiarism guidelines."
     ],
     "downloads": [
-      { "label": "Download Paper Template (Microsoft Word)", "href": "/conference_template.docx" },
-      { "label": "Download Paper Template Instructions (LaTeX)", "href": "/Paper_Latex_Template_Instructions.pdf" },
-      { "label": "Download LaTeX Template (ZIP, 700 KB)", "href": "/ICSCCI27_conference-latex-template_10-17-19.zip" }
+      { "label": "Download Call for Papers (PDF)", "href": "#" },
+      { "label": "Download Paper Template (Microsoft Word)", "href": "#" },
+      { "label": "Download Paper Template Instructions (LaTeX)", "href": "#" },
+      { "label": "Download LaTeX Template (ZIP, 700 KB)", "href": "#" }
     ],
     "submissionLink": { "label": "Submission Link — Microsoft CMT", "href": "#" },
     "plagiarism": {
@@ -207,11 +206,7 @@
     "heading": "Keynote Speakers",
     "kicker": "Speakers",
     "intro": "To be updated soon.",
-    "list":[
-        { "name": "Prof. Dimitrios A. Karras, PhD", "affiliation": "National and Kapodistrian University of Athens (NKUA), Greece", "profile": "/prof-dimitrios-a-karras.png"},
-  { "name": "Prof. (Dr.) Ali Soofastaei", "affiliation": "University of Queensland, Australia", "profile": "/prof-dr-ali-soofastaei.png" },
-  { "name": "More To Be Announced", "affiliation": "More To Be Announced", "profile": "" }
-    ]
+    "list": []
   },
 
   "committee": {
@@ -228,36 +223,37 @@
       {
         "role": "Patrons",
         "members": [
-          { "name": "Prof. (Dr.) Arvind Kumar Pandey", "title": "Director, EIT Faridabad" }
+          { "name": "Prof. (Dr.) Arvind Kumar Pandey", "title": "Director, EIT Faridabad" },
+          { "name": "Prof. (Dr.) B. K. Kanojia", "title": "Director, NIT Jalandhar" },
+          { "name": "Prof. (Dr.) Prerna Gaur", "title": "Campus Director, NSUT; Chair, IEEE India Council" }
         ]
       },
       {
         "role": "General Chair",
         "members": [
           { "name": "Prof. (Dr.) Pramod Singh", "title": "Dean R&D, EIT Faridabad" },
-          { "name": "Prof. (Dr.) Rajesh Singh", "title": "EIT Faridabad" }
+          { "name": "Prof. (Dr.) Rajesh Singh", "title": "Dean Academics, EIT Faridabad" }
         ]
       },
       {
         "role": "Conference Chair",
         "members": [
-          { "name": "Prof. (Dr.) Jitendra Yadav", "title": "EIT Faridabad" },
+          { "name": "Prof. (Dr.) Manisha Vashishta", "title": "EIT Faridabad" },
           { "name": "Prof. (Dr.) Mukesh Kumar Saini", "title": "EIT Faridabad" }
         ]
       },
       {
         "role": "Conference Secretary",
         "members": [
-          { "name": "Dr. Manisha Vashishta", "title": "EIT Faridabad" },
-          { "name": "Mr. Neeraj Joshi", "title": "EIT Faridabad" }
-
+          { "name": "Mr. Neeraj Joshi", "title": "EIT Faridabad" },
+          { "name": "Dr. Stuti Saxena", "title": "EIT Faridabad" }
         ]
       },
       {
         "role": "Convenor",
         "members": [
-          { "name": "Dr. Stuti Saxena", "title": "EIT Faridabad" },
           { "name": "Ms. Sankeeta Jha", "title": "EIT Faridabad" },
+          { "name": "Ms. Ruchika Agarwal", "title": "EIT Faridabad" },
           { "name": "Ms. Isha Gautam", "title": "EIT Faridabad" },
           { "name": "Mr. Mittar Pal", "title": "EIT Faridabad" }
         ]
@@ -267,80 +263,69 @@
         "members": [
           { "name": "Ms. Shefali Madan", "title": "EIT Faridabad" },
           { "name": "Mr. Mohd. Danish", "title": "EIT Faridabad" }
-          
         ]
       },
       {
         "role": "Finance & Publication Chair",
         "members": [
-          { "name": "Ms. Ruchika Agarwal", "title": "EIT Faridabad" },
-          { "name": "Mr. Bilal Khan", "title": "EIT Faridabad" }
+          { "name": "Mr. Shivam Agarwal", "title": "EIT Faridabad (Finance)" },
+          { "name": "Mr. Bilal Khan", "title": "EIT Faridabad (Publication)" }
         ]
       },
       {
         "role": "Publicity Committee",
-        "members": [{ "name": "Prof. (Dr.) Sunil Verma", "title": "EIT Faridabad" }]
+        "members": [{ "name": "Ms. Mahima Magon", "title": "EIT Faridabad" }]
       },
       {
         "role": "Hospitality and Accommodation Committee",
-        "members": [{ "name": "Ms. Mahima Magon", "title": "EIT Faridabad" }]
+        "members": [{ "name": "Mr. Mohit Kapil", "title": "EIT Faridabad" }]
       },
       {
         "role": "Organizing Committee",
         "members": [{ "name": "Faculties of CSE and ECE", "title": "EIT Faridabad" }]
       }
     ],
-      "Honorary Advisory Committee": [
-						{ "name": "Prof. (Dr.) M. N. Hoda", "title": "Chair IEEE Delhi Section", "profile":"" },
-						{ "name": "Prof. (Dr.) Rajnish Sharma", "title": "VC, IEEE Delhi Section","profile":"" },
-						{ "name": "Prof. (Dr.) Prerna Gaur", "title": "Campus Director, NSUT, Chair, IEEE India Council","profile":""  },
-						{ "name": "Prof. (Dr.) Shyam S. Tyagi", "title": "Executive, IEEE Delhi Section","profile":"" },
-            { "name": "More To Be Announced", "affiliation": "More To Be Announced", "profile": "" }
-					],
-				
-   "internationalAdvisoryCommittee": [
-  { "name": "Prof. Dimitrios A. Karras, PhD", "affiliation": "National and Kapodistrian University of Athens (NKUA), Greece", "profile": "/prof-dimitrios-a-karras.png" },
-  { "name": "Dr. Nilesh Pandey", "affiliation": "Intel Corp., Texas, USA", "profile": "" },
-  { "name": "Prof. (Dr.) Ali Soofastaei", "affiliation": "University of Queensland, Australia", "profile": "/prof-dr-ali-soofastaei.png" },
-  { "name": "Prof. (Dr.) Anesh Kumar Maharaj", "affiliation": "University of KwaZulu-Natal, Durban, South Africa", "profile": "/prof-dr-anesh-kumar-maharaj.png" },
-  { "name": "Dr. Vishal Krishna Singh", "affiliation": "University of Essex, Colchester, United Kingdom", "profile": "/dr-vishal-krishna-singh.png" },
-  { "name": "Dr. Krisanu Roy", "affiliation": "University of Waikato, Hamilton, New Zealand", "profile": "/dr-krisanu-roy.png" }
-],
-
-    "nationalAdvisoryCommittee": [
-    { "name": "Prof. (Dr.) Rajnish Sharma", "affiliation": "VC, Chitkara University" },
-    { "name": "Prof. (Dr.) Asheesh Kumar Singh", "affiliation": "MNIT Prayagraj" },
-    { "name": "Prof. (Dr.) Alok Gupta", "affiliation": "IILM University" },
-    { "name": "Prof. (Dr.) Harish Parthsarathy", "affiliation": "NSUT, New Delhi" },
-    { "name": "Prof. (Dr.) Ravi Shankar Singh", "affiliation": "IIT BHU" },
-    { "name": "Prof. (Dr.) Suman Lata Tripathi", "affiliation": "SIT University, Pune" },
-    { "name": "Dr. Amit Kumar Singh", "affiliation": "IIT BHU" },
-    { "name": "Prof. (Dr.) Rekha Agarwal", "affiliation": "AMITY University" },
-    { "name": "Prof. (Dr.) Amit Prakash Singh", "affiliation": "GGSIPU, New Delhi" },
-    { "name": "Prof. (Dr.) Harsh Vikram Singh", "affiliation": "KNIT Sultanpur" },
-    { "name": "Dr. Dhananjay V Gadre", "affiliation": "NSUT, New Delhi" },
-    { "name": "Dr. Niharika Anand Sharma", "affiliation": "IIIT Lucknow" },
-    { "name": "Dr. Saurabh Shukla", "affiliation": "IIIT Lucknow" },
-    { "name": "Dr. Varun Aragwal", "affiliation": "NIT Sikkim" },
-    { "name": "Dr. Vishal Vishnoi", "affiliation": "NIT Sikkim" },
-    { "name": "Dr. Ankur Kumar", "affiliation": "IIIT Una" },
-    { "name": "Dr. Suneel Yadav", "affiliation": "IIIT Prayagraj" },
-    { "name": "Dr. Anil Yadav", "affiliation": "NIT Jalandhar" },
-    { "name": "Dr. Vikrant Varshney", "affiliation": "Synopsys, Bangalore" },
-    { "name": "Prof. (Dr.) Amit K Ahuja", "affiliation": "JSS Noida" },
-    { "name": "Prof. (Dr.) N. Guruprasad", "affiliation": "Don Bosco, Bangalore" },
-    { "name": "Prof. (Dr.) Mayank Garg", "affiliation": "ITS, Gr. Noida" },
-    { "name": "Prof. (Dr.) Vikram Bali", "affiliation": "MAIT, New Delhi" },
-    { "name": "Prof. (Dr.) Brijesh Singh", "affiliation": "GCET, Greater Noida" },
-    { "name": "Dr. Tanmay Dubey", "affiliation": "IIIT Surat" },
-    { "name": "Dr. Shaswat Pathak", "affiliation": "CEO, AIC" },
-    { "name": "Dr. Subodh Kumar Tripathi", "affiliation": "DBRAIT, Port Blair, Andaman and Nicobar" },
-    { "name": "Dr. Ratneshwar Kumar Ratnesh", "affiliation": "NSUT, Delhi" },
-    { "name": "Dr. Manish Raj", "affiliation": "Galgotia University" },
-    { "name": "Dr. Somendra Shukla", "affiliation": "GNIT, Greater Noida" },
-    { "name": "Dr. Abhay Bansal", "affiliation": "Bennett University" },
-    { "name": "Dr. Suneet Gupta", "affiliation": "AIT-CSE, Chandigarh University" }
-  ],
+    "advisoryCommittee": [
+      { "name": "Prof. (Dr.) Rajnish Sharma", "affiliation": "VC, Chitkara University" },
+      { "name": "Prof. (Dr.) Asheesh Kumar Singh", "affiliation": "MNIT Prayagraj" },
+      { "name": "Prof. (Dr.) Alok Gupta", "affiliation": "IILM University" },
+      { "name": "Prof. (Dr.) Harish Parthsarathy", "affiliation": "NSUT, New Delhi" },
+      { "name": "Prof. (Dr.) Ravi Shankar Singh", "affiliation": "IIT BHU" },
+      { "name": "Prof. (Dr.) Suman Lata Tripathi", "affiliation": "SIT University, Pune" },
+      { "name": "Dr. Amit Kumar Singh", "affiliation": "IIT BHU" },
+      { "name": "Prof. (Dr.) Rekha Agarwal", "affiliation": "AMITY University" },
+      { "name": "Dr. Nachiketa Chakraborty", "affiliation": "University of Reading, UK" },
+      { "name": "Prof. (Dr.) Amit Prakash Singh", "affiliation": "GGSIPU, New Delhi" },
+      { "name": "Prof. (Dr.) Harsh Vikram Singh", "affiliation": "KNIT Sultanpur" },
+      { "name": "Dr. Dhananjay V Gadre", "affiliation": "NSUT, New Delhi" },
+      { "name": "Dr. Dimitrios A. Karras", "affiliation": "NKUA, Greece" },
+      { "name": "Dr. Niharika Anand Sharma", "affiliation": "IIIT Lucknow" },
+      { "name": "Dr. Saurabh Shukla", "affiliation": "IIIT Lucknow" },
+      { "name": "Dr. Varun Aragwal", "affiliation": "NIT Sikkim" },
+      { "name": "Dr. Nehal Shukla", "affiliation": "Columbus State University, USA" },
+      { "name": "Dr. Vishal Vishnoi", "affiliation": "NIT Sikkim" },
+      { "name": "Dr. Ankur Kumar", "affiliation": "IIIT Una" },
+      { "name": "Dr. Suneel Yadav", "affiliation": "IIIT Prayagraj" },
+      { "name": "Dr. Anil Yadav", "affiliation": "NIT Jalandhar" },
+      { "name": "Dr. Ankit Agarwal", "affiliation": "Northwestern University, USA" },
+      { "name": "Dr. Vikrant Varshney", "affiliation": "Synopsys, Bangalore" },
+      { "name": "Prof. (Dr.) Amit K Ahuja", "affiliation": "JSS Noida" },
+      { "name": "Dr. Raghav Vadhera", "affiliation": "Raytheon Technology, Boston, USA" },
+      { "name": "Prof. (Dr.) N. Guruprasad", "affiliation": "Don Bosco, Bangalore" },
+      { "name": "Prof. (Dr.) Mayank Garg", "affiliation": "ITS, Gr. Noida" },
+      { "name": "Prof. (Dr.) Vikram Bali", "affiliation": "MAIT, New Delhi" },
+      { "name": "Dr. Amit Kumar Haldar", "affiliation": "TUS Limerick, Ireland" },
+      { "name": "Prof. (Dr.) Brijesh Singh", "affiliation": "GCET, Greater Noida" },
+      { "name": "Dr. Tanmay Dubey", "affiliation": "IIIT Surat" },
+      { "name": "Dr. Shaswat Pathak", "affiliation": "CEO, AIC" },
+      { "name": "Kuljeet Kaur", "affiliation": "École de Technologie Supérieure, Montreal, Canada" },
+      { "name": "Dr. Subodh Kumar Tripathi", "affiliation": "DBRAIT, Port Blair, Andaman and Nicobar" },
+      { "name": "Dr. Ratneshwar Kumar Ratnesh", "affiliation": "NSUT, Delhi" },
+      { "name": "Dr. Manish Raj", "affiliation": "Galgotia University" },
+      { "name": "Dr. Somendra Shukla", "affiliation": "GNIT, Greater Noida" },
+      { "name": "Dr. Abhay Bansal", "affiliation": "Bennett University" },
+      { "name": "Dr. Suneet Gupta", "affiliation": "AIT-CSE, Chandigarh University" }
+    ],
     "technicalProgramCommittee": [
       { "name": "Dr. Neeraj Kumar", "affiliation": "GNIOT, Greater Noida" },
       { "name": "Dr. Vineet Vishnoi", "affiliation": "SIET, Meerut" },
@@ -402,7 +387,7 @@
   "sponsors": {
     "heading": "Technical Sponsor",
     "kicker": "Supported By",
-    "items": [{ "name": "IEEE Delhi Section", "tier": "Technical Sponsor" }]
+    "items": [{ "name": "IEEE Delhi Section", "tier": "Technical Co-Sponsor" }]
   },
 
   "contact": {
@@ -417,6 +402,6 @@
 
   "footer": {
     "text": "ICSCCI 2027 · Echelon Institute of Technology, Faridabad",
-    "disclaimer": "Technically sponsored by the IEEE Delhi Section."
+    "disclaimer": "Technically co-sponsored by the IEEE Delhi Section."
   }
 }

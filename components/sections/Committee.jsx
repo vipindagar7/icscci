@@ -59,27 +59,23 @@ export default function Committee() {
           <div className="relative mt-6">
             <Marquee pauseOnHover reverse className="[--duration:50s]">
               {committee.internationalAdvisoryCommittee.map((m, i) => (
-                <div
-                  key={i}
-                  className="flex w-[280px] flex-shrink-0 flex-col rounded-lg border border-border bg-card p-4"
-                >
-                  <div className="mx-auto h-32 w-32 overflow-hidden rounded-lg border border-border">
-                    <PlaceholderImage
-                      src={m.profile}
-                      height={128}
-                      width={128}
-                      label={m.name}
-                      className="h-full w-full object-cover"
-                    />
-                  </div>
+                <Card key={i} className="group w-[400px] h-full overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/10">
+                  <CardContent className="flex flex-col items-center pt-8 text-center">
+                    <div className="relative">
+                      <div className="absolute inset-0 -m-1 rounded-full bg-gradient-to-br from-pageAccent to-transparent opacity-70 transition-opacity group-hover:opacity-100" />
+                      <div className="relative h-28 w-28 overflow-hidden rounded-full border-2 border-card">
+                        <PlaceholderImage src={m.profile} alt={m.name} label={m.name} className="h-full w-full" />
+                      </div>
+                    </div>
 
-                  <div className="mt-4">
-                    <NameCard
-                      name={m.name}
-                      affiliation={m.affiliation}
-                    />
-                  </div>
-                </div>
+                    <h3 className="mt-5 font-display text-base font-semibold text-foreground">{m.name}</h3>
+                    <p className="mt-1 text-xs text-muted-foreground">{m.affiliation}</p>
+
+                    {m.topic && (
+                      <p className="mt-4 border-t border-border pt-4 text-sm text-foreground/70">{m.topic}</p>
+                    )}
+                  </CardContent>
+                </Card>
               ))}
             </Marquee>
             <div className="pointer-events-none absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-muted to-transparent" />
