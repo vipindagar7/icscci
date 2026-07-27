@@ -82,7 +82,7 @@ export default function Header() {
             alt="Logo"
             width={128}
             height={128}
-            className="h-32 w-32 shrink-0 object-contain block dark:hidden"
+            className="w-48 shrink-0 object-contain block dark:hidden"
             priority
           />
           <Image
@@ -90,7 +90,7 @@ export default function Header() {
             alt="Logo"
             width={128}
             height={128}
-            className="h-32 w-32 shrink-0 object-contain hidden dark:block"
+            className="w-48 shrink-0 object-contain hidden dark:block"
             priority
           />
         </Link>
