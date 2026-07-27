@@ -289,7 +289,11 @@
       },
       {
         "role": "Hospitality and Accommodation Committee",
-        "members": [{ "name": "Ms. Mahima Magon", "title": "EIT Faridabad" }]
+        "members": [
+          
+          { "name": "Prof. (Dr.) Irfan Ullah Khan", "title": "EIT Faridabad" },
+          { "name": "Prof. (Dr.) Poonam", "title": "EIT Faridabad" }
+      ]
       },
       {
         "role": "Organizing Committee",
