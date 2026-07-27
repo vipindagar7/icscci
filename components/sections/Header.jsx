@@ -23,7 +23,7 @@ export default function Header() {
       transition={{ duration: 0.5, ease: [0.21, 0.47, 0.32, 0.98] }}
       className="sticky top-0 z-50 border-b border-border bg-background/95 text-foreground backdrop-blur"
     >
-      <div className="mx-auto flex items-center justify-between gap-4">
+      <div className="mx-auto flex px-[10px] items-center justify-between gap-4">
         {/* echelon logo */}
         <Link
           href="https://www.eitfaridabad.com"
