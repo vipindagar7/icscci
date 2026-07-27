@@ -12,7 +12,7 @@ export default function ImportantDatesPreview() {
 
   return (
     <section className="bg-muted/60 py-20 md:py-24">
-      <div className="mx-auto max-w-content px-6">
+      <div className="mx-auto  px-6">
         <FadeIn className="flex flex-wrap items-end justify-between gap-4">
           <div>
             <p className="section-kicker">{importantDates.kicker}</p>

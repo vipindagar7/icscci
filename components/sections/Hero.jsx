@@ -43,7 +43,7 @@ export default function Hero() {
         variants={container}
         initial="hidden"
         animate="show"
-        className="relative mx-auto flex max-w-content flex-col gap-8 px-6 pb-24 pt-20 md:pb-32 md:pt-28"
+        className="relative mx-auto flex flex-col gap-8 px-6 pb-24 pt-20 md:pb-32 md:pt-28"
       >
         <motion.div variants={item}>
           <AnimatedGradientText>{hero.eyebrow}</AnimatedGradientText>

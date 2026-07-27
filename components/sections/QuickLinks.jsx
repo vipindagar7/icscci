@@ -17,7 +17,7 @@ const items = [
 
 export default function QuickLinks() {
   return (
-    <section className="mx-auto max-w-content px-6 py-20 md:py-28">
+    <section className="mx-auto px-6 py-20 md:py-28">
       <FadeIn>
         <p className="section-kicker">Explore</p>
         <h2 className="section-heading mt-2">Find your way around</h2>

@@ -6,7 +6,7 @@ export default function Sponsors() {
 
   return (
     <section className="border-y border-border bg-muted/50 py-14">
-      <div className="mx-auto max-w-content px-6 text-center">
+      <div className="mx-auto  px-6 text-center">
         <FadeIn>
           <p className="section-kicker">{sponsors.kicker}</p>
           <div className="mt-6 flex flex-wrap items-center justify-center gap-6">

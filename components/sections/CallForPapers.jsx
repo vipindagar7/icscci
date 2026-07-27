@@ -12,7 +12,7 @@ export default function CallForPapers() {
 
   return (
     <section className="bg-background py-20 md:py-28">
-      <div className="mx-auto max-w-content px-6">
+      <div className="mx-auto  px-6">
         <div className="mt-6 flex flex-col gap-8 lg:flex-row lg:justify-between">
           {/* Left Content */}
           <FadeIn className="w-full lg:max-w-3xl lg:flex-1">

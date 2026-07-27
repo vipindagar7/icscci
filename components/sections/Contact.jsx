@@ -6,7 +6,7 @@ export default function Contact() {
 
   return (
     <section className="bg-background py-20 md:py-24">
-      <div className="mx-auto max-w-content px-6">
+      <div className="mx-auto  px-6">
         <FadeIn>
           <p className="section-kicker">{contact.kicker}</p>
           <h2 className="section-heading mt-2">{contact.heading}</h2>

@@ -9,7 +9,7 @@ export default function ImportantDates() {
   const items = importantDates.items;
 
   return (
-    <section className="mx-auto max-w-content px-6 py-20 md:py-28">
+    <section className="mx-auto  px-6 py-20 md:py-28">
       <FadeIn>
         <p className="section-kicker">{importantDates.kicker}</p>
         <h2 className="section-heading mt-2">{importantDates.heading}</h2>

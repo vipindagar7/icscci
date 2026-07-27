@@ -6,7 +6,7 @@ export default function Registration() {
   const reg = content.registration;
 
   return (
-    <section className="mx-auto max-w-content px-6 py-20 md:py-28">
+    <section className="mx-auto  px-6 py-20 md:py-28">
       <FadeIn>
         <p className="section-kicker">{reg.kicker}</p>
         <h2 className="section-heading mt-2">{reg.heading}</h2>

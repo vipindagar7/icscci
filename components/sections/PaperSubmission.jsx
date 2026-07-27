@@ -10,7 +10,7 @@ export default function PaperSubmission() {
 
   return (
     <section className="bg-muted py-20 md:py-28">
-      <div className="mx-auto max-w-content px-6">
+      <div className="mx-auto  px-6">
         <FadeIn>
           <p className="section-kicker">{ps.kicker}</p>
           <h2 className="section-heading mt-2">{ps.heading}</h2>

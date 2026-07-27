@@ -13,7 +13,7 @@ export default function Committee() {
 
   return (
     <section className="bg-muted/60 py-20 md:py-28">
-      <div className="mx-auto max-w-content px-6">
+      <div className="mx-auto  px-6">
         <FadeIn>
           <p className="section-kicker">{committee.kicker}</p>
           <h2 className="section-heading mt-2">{committee.heading}</h2>

@@ -23,7 +23,7 @@ export default function Header() {
       transition={{ duration: 0.5, ease: [0.21, 0.47, 0.32, 0.98] }}
       className="sticky top-0 z-50 border-b border-border bg-background/95 text-foreground backdrop-blur"
     >
-      <div className="mx-auto flex max-w-content items-center justify-between gap-4 px-6 py-3">
+      <div className="mx-auto flex items-center justify-between gap-4">
         {/* echelon logo */}
         <Link
           href="https://www.eitfaridabad.com"
@@ -36,14 +36,14 @@ export default function Header() {
             alt="Logo"
             width={128}
             height={128}
-            className="shrink-0 object-contain md:h-20 md:w-20 block dark:hidden"
+            className="shrink-0 object-contain md:w-48 block dark:hidden"
           />
           <Image
             src="/echelonLogo-dark.webp"
             alt="Logo"
-            width={164}
-            height={164}
-            className="shrink-0 object-contain md:h-20 md:w-20 hidden dark:block"
+            width={128}
+            height={128}
+            className="shrink-0 object-contain md:w-48 hidden dark:block"
           />
         </Link>
 
@@ -105,7 +105,7 @@ export default function Header() {
           initial={{ height: 0, opacity: 0 }}
           animate={{ height: "auto", opacity: 1 }}
           exit={{ height: 0, opacity: 0 }}
-          className="border-t border-border bg-background px-6 py-4 lg:hidden"
+          className="border-t border-border bg-background lg:hidden"
         >
           <ul className="flex flex-col gap-4">
             {content.nav.map((item) => {

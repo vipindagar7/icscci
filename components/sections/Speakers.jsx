@@ -11,7 +11,7 @@ export default function Speakers() {
   const list = speakers.list || [];
 
   return (
-    <section className="mx-auto max-w-content px-6 py-20 md:py-28">
+    <section className="mx-auto  px-6 py-20 md:py-28">
       <FadeIn>
         <p className="section-kicker">{speakers.kicker}</p>
         <h2 className="section-heading mt-2">{speakers.heading}</h2>
