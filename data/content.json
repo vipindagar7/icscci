@@ -250,7 +250,7 @@
       {
         "role": "Conference Secretary",
         "members": [
-          { "name": "Dr. Manisha Vashishta", "title": "EIT Faridabad" },
+          { "name": "Dr. Dharm Raj Patil", "title": "EIT Faridabad" },
           { "name": "Mr. Neeraj Joshi", "title": "EIT Faridabad" }
 
         ]
@@ -259,7 +259,6 @@
         "role": "Convenor",
         "members": [
           { "name": "Dr. Stuti Saxena", "title": "EIT Faridabad" },
-          { "name": "Ms. Sankeeta Jha", "title": "EIT Faridabad" },
           { "name": "Ms. Isha Gautam", "title": "EIT Faridabad" },
           { "name": "Mr. Mittar Pal", "title": "EIT Faridabad" }
         ]
@@ -275,13 +274,18 @@
       {
         "role": "Finance & Publication Chair",
         "members": [
-          { "name": "Ms. Ruchika Agarwal", "title": "EIT Faridabad" },
-          { "name": "Mr. Bilal Khan", "title": "EIT Faridabad" }
+      { "name": "Ms. Sankeeta Jha", "title": "EIT Faridabad" },    
+      { "name": "Mr. Bilal Khan", "title": "EIT Faridabad" }
         ]
       },
       {
         "role": "Publicity Committee",
-        "members": [{ "name": "Prof. (Dr.) Sunil Verma", "title": "EIT Faridabad" }]
+        "members": [
+          { "name": "Prof. (Dr.) Sunil Verma", "title": "EIT Faridabad" },
+          { "name": "Prof. (Dr.) Anupama Jain", "title": "EIT Faridabad" }
+        
+      
+      ]
       },
       {
         "role": "Hospitality and Accommodation Committee",
