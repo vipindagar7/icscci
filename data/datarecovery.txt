@@ -1,0 +1,7 @@
+ "Honorary Advisory Committee": [
+						{ "name": "Prof. (Dr.) M. N. Hoda", "title": "Chair IEEE Delhi Section", "profile":"" },
+						{ "name": "Prof. (Dr.) Rajnish Sharma", "title": "VC, IEEE Delhi Section","profile":"" },
+						{ "name": "Prof. (Dr.) Prerna Gaur", "title": "Campus Director, NSUT, Chair, IEEE India Council","profile":""  },
+						{ "name": "Prof. (Dr.) Shyam S. Tyagi", "title": "Executive, IEEE Delhi Section","profile":"" },
+            { "name": "More To Be Announced", "affiliation": "More To Be Announced", "profile": "" }
+					],

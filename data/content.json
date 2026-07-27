@@ -51,7 +51,7 @@
 
   "about": {
     "heading": "About the Conference",
-    "kicker": "About",
+    "kicker": "",
     "paragraphs": [
       "ICSCCI 2027 focuses on the integration of next-generation connectivity technologies such as 5G/6G networks, the Internet of Things (IoT), edge and cloud computing, and intelligent communication systems with advanced computational intelligence techniques, including machine learning, deep learning, reinforcement learning, and Agentic AI. The conference aims to explore innovative methodologies and intelligent solutions that enhance the performance, efficiency, and adaptability of future communication and computing ecosystems.",
 
@@ -217,8 +217,8 @@
   },
 
   "committee": {
-    "heading": "Organizing Committee",
-    "kicker": "People",
+    "heading": "",
+    "kicker": "",
     "leadership": [
       {
         "role": "Chief Patrons",
@@ -292,13 +292,7 @@
         "members": [{ "name": "Faculties of CSE and ECE", "title": "EIT Faridabad" }]
       }
     ],
-      "Honorary Advisory Committee": [
-						{ "name": "Prof. (Dr.) M. N. Hoda", "title": "Chair IEEE Delhi Section", "profile":"" },
-						{ "name": "Prof. (Dr.) Rajnish Sharma", "title": "VC, IEEE Delhi Section","profile":"" },
-						{ "name": "Prof. (Dr.) Prerna Gaur", "title": "Campus Director, NSUT, Chair, IEEE India Council","profile":""  },
-						{ "name": "Prof. (Dr.) Shyam S. Tyagi", "title": "Executive, IEEE Delhi Section","profile":"" },
-            { "name": "More To Be Announced", "affiliation": "More To Be Announced", "profile": "" }
-					],
+     
 				
    "internationalAdvisoryCommittee": [
   { "name": "Prof. Dimitrios A. Karras, PhD", "affiliation": "National and Kapodistrian University of Athens (NKUA), Greece", "profile": "/prof-dimitrios-a-karras.png" },
@@ -423,3 +417,5 @@
     "disclaimer": "Technically sponsored by the IEEE Delhi Section."
   }
 }
+
+

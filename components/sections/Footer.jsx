@@ -31,7 +31,6 @@ export default function Footer() {
                   priority
                 />
               </Link>
-              <span className="font-display text-[1.5rem] font-bold text-primary">{site.shortName}</span>
               {/* echelon logo */}
               <Link
                 href="https://www.eitfaridabad.com"

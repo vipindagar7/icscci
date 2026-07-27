@@ -39,7 +39,7 @@ export default function Committee() {
           ))}
         </Stagger>
         {/*honary advisory committee */}
-        <FadeIn className="mt-16">
+        {/* <FadeIn className="mt-16">
           <h3 className="font-display text-lg font-semibold text-foreground">Honorary Advisory Committee</h3>
           <div className="relative mt-6">
             <Marquee reverse pauseOnHover className="[--duration:20s]">
@@ -51,7 +51,7 @@ export default function Committee() {
             <div className="pointer-events-none absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-muted to-transparent" />
             <div className="pointer-events-none absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-muted to-transparent" />
           </div>
-        </FadeIn>
+        </FadeIn> */}
 
         {/* international advisory */}
         <FadeIn className="mt-16">
