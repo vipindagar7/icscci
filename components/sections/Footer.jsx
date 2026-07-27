@@ -12,25 +12,7 @@ export default function Footer() {
         <div className="flex justify-between flex-wrap">
           <div>
             <div className="flex items-center gap-3">
-              {/* icscci logo */}
-              <Link href="/" className="flex shrink-0 items-center gap-3">
-                <Image
-                  src="/logo-light.png"
-                  alt="Logo"
-                  width={64}
-                  height={64}
-                  className="h-48 w-48 shrink-0 object-contain block dark:hidden"
-                  priority
-                />
-                <Image
-                  src="/logo-dark.png"
-                  alt="Logo"
-                  width={64}
-                  height={64}
-                  className="h-48 w-48 shrink-0 object-contain hidden dark:block"
-                  priority
-                />
-              </Link>
+      
               {/* echelon logo */}
               <Link
                 href="https://www.eitfaridabad.com"
@@ -45,7 +27,7 @@ export default function Footer() {
                   height={128}
                   className=" shrink-0 object-contain md:h-48 md:w-48 block dark:hidden"
                 />
-                
+
                 <Image
                   src="/echelonLogo-dark.webp"
                   alt="Logo"

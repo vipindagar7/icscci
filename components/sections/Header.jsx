@@ -24,6 +24,28 @@ export default function Header() {
       className="sticky top-0 z-50 border-b border-border bg-background/95 text-foreground backdrop-blur"
     >
       <div className="mx-auto flex px-[10px] items-center justify-between gap-4">
+        {/* ggsipu logo */}
+        <Link
+          href="https://www.eitfaridabad.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex shrink-0 items-center gap-3"
+        >
+          <Image
+            src="/ggsipu-logo-dark.png"
+            alt="Logo"
+            width={128}
+            height={128}
+            className="shrink-0 object-contain md:w-48 block dark:hidden"
+          />
+          <Image
+            src="/ggsipu-logo-light.jpeg"
+            alt="Logo"
+            width={128}
+            height={128}
+            className="shrink-0 object-contain md:w-48 hidden dark:block"
+          />
+        </Link>
         {/* echelon logo */}
         <Link
           href="https://www.eitfaridabad.com"
@@ -71,10 +93,6 @@ export default function Header() {
             );
           })}
         </nav>
-
-        <Button asChild variant="default" size="sm" className="hidden lg:inline-flex">
-          <Link href={content.hero.ctaPrimary.href}>{content.hero.ctaPrimary.label}</Link>
-        </Button>
         {/* icscci logo */}
         <Link href="/" className="flex shrink-0 items-center gap-3">
           <Image
