@@ -3,10 +3,10 @@
 
   "site": {
     "shortName": "ICSCCI 2027",
-    "fullName": "1st IEEE International Conference on Smart Connectivity and Computational Intelligence 2027",
+    "fullName": "1st International Conference on Smart Connectivity and Computational Intelligence 2027",
     "acronym": "ICSCCI 2027",
     "edition": "1st Edition",
-    "technicalSponsor": "IEEE Delhi Section",
+    "technicalSponsor": "",
     "organizers": "Department of Computer Science Engineering and the Department of Electronics and Communication Engineering, Echelon Institute of Technology, Faridabad",
     "host": "Echelon Institute of Technology (EIT), Faridabad",
     "dateRange": "20–21 March 2027",
@@ -32,10 +32,10 @@
 
 
   "hero": {
-    "eyebrow": "IEEE Delhi Section — Technically Sponsored",
+    "eyebrow": "",
     "title": "ICSCCI 2027",
     "titleLong": "International Conference on Smart Connectivity and Computational Intelligence",
-    "subtitle": "The 1st IEEE International Conference on Smart Connectivity and Computational Intelligence 2027 (ICSCCI 2027), technically sponsored by the IEEE Delhi Section, will be dedicated to advancing research and innovation at the intersection of intelligent communication systems and computational intelligence. It is jointly being organized by the Department of Computer Science Engineering and the Department of Electronics and Communication Engineering at Echelon Institute of Technology, Faridabad. The conference aims to bring together leading academicians, researchers, industry professionals, and students to exchange knowledge and explore emerging technological trends.",
+    "subtitle": "The 1st International Conference on Smart Connectivity and Computational Intelligence 2027 (ICSCCI 2027), will be dedicated to advancing research and innovation at the intersection of intelligent communication systems and computational intelligence. It is jointly being organized by the Department of Computer Science Engineering and the Department of Electronics and Communication Engineering at Echelon Institute of Technology, Faridabad. The conference aims to bring together leading academicians, researchers, industry professionals, and students to exchange knowledge and explore emerging technological trends.",
     "dateLabel": "Conference Dates",
     "dateValue": "10–11 July 2027",
     "venueLabel": "Venue",
@@ -78,6 +78,8 @@
   "tracks": {
     "heading": "Conference Tracks",
     "kicker": "Scope",
+    "kickerDesc":["ICSCCI 2027 focuses on the convergence of next-generation connectivity technologies, including 5G/6G networks, the Internet of Things (IoT), edge and cloud computing, and intelligent communication systems integrated with advanced computational intelligence and artificial intelligence techniques such as machine learning, deep learning, reinforcement learning, and Agentic AI.The conference promotes interdisciplinary research in smart communication networks, edge intelligence, cybersecurity, trustworthy AI, intelligent automation, and digital transformation, addressing key challenges related to scalability, security, resource optimization, efficiency, and adaptability.",
+    "ICSCCI 2027 welcomes original theoretical, experimental, and application-oriented contributions from academia, industry, and research organizations. The application domains include smart cities, healthcare, intelligent transportation systems, Industry 4.0/5.0, cyber-physical systems, and sustainable digital infrastructures."],
     "intro": "ICSCCI 2027 invites original, unpublished research contributions across the following six tracks.",
     "items": [
       {
@@ -177,7 +179,7 @@
 
   "callForPapers": {
     "heading": "Call for Papers",
-    "kicker": "Submission",
+    "kicker": "",
     "intro": "ICSCCI 2027 invites authors to submit original, unpublished research through the Microsoft Conference Management Toolkit (Microsoft CMT), promoting innovative thinking and practical applications that contribute to intelligent, sustainable, and future-ready digital infrastructures for smart societies.",
     "guidelines": [
       "Papers must be written in English, 4–6 printed pages (10pt font), double-column IEEE conference format.",
@@ -259,14 +261,13 @@
         "role": "Convenor",
         "members": [
           { "name": "Dr. Stuti Saxena", "title": "EIT Faridabad" },
-          { "name": "Ms. Isha Gautam", "title": "EIT Faridabad" },
-          { "name": "Mr. Mittar Pal", "title": "EIT Faridabad" }
+          { "name": "Ms. Isha Gautam", "title": "EIT Faridabad" }
         ]
       },
       {
         "role": "Technical Program Chair",
         "members": [
-          { "name": "Ms. Shefali Madan", "title": "EIT Faridabad" },
+          { "name": "Prof. (Dr.) Pramod Singh", "title": "EIT Faridabad" },
           { "name": "Mr. Mohd. Danish", "title": "EIT Faridabad" }
           
         ]
@@ -294,14 +295,26 @@
           { "name": "Prof. (Dr.) Irfan Ullah Khan", "title": "EIT Faridabad" },
           { "name": "Prof. (Dr.) Poonam", "title": "EIT Faridabad" }
       ]
-      },
-      {
-        "role": "Organizing Committee",
-        "members": [{ "name": "Faculties of CSE and ECE", "title": "EIT Faridabad" }]
       }
     ],
-     
-				
+    
+
+
+"Organizing Committee":  [
+          { "name": "Prof. (Dr.) Shital Parshad", "affiliation": "EIT Faridabad" },
+          { "name": "Shefali Madan", "affiliation": "EIT Faridabad" },
+          { "name": "Mahima Magon", "affiliation": "EIT Faridabad" },
+          { "name": "Sunita", "affiliation": "EIT Faridabad" },
+          { "name": "Preeti", "affiliation": "EIT Faridabad" },
+          { "name": "Saransh Prakash", "affiliation": "EIT Faridabad" },
+          { "name": "Shallu Hassija", "affiliation": "EIT Faridabad" },
+          { "name": "Priya Shukla", "affiliation": "EIT Faridabad" },
+          { "name": "Pankaj Kumar Singh", "affiliation": "EIT Faridabad" },
+          { "name": "Rohan Rakheja", "affiliation": "EIT Faridabad" },
+          { "name": "Mittar Pal", "affiliation": "EIT Faridabad" }
+
+        ],
+
    "internationalAdvisoryCommittee": [
   { "name": "Prof. Dimitrios A. Karras, PhD", "affiliation": "National and Kapodistrian University of Athens (NKUA), Greece", "profile": "/prof-dimitrios-a-karras.png" },
   { "name": "Dr. Nilesh Pandey", "affiliation": "Intel Corp., Texas, USA", "profile": "/dr-nilesh-pandey.png" },
@@ -313,72 +326,529 @@
 ],
 
     "nationalAdvisoryCommittee": [
-    { "name": "Prof. (Dr.) Rajnish Sharma", "affiliation": "VC, Chitkara University" },
-    { "name": "Prof. (Dr.) Asheesh Kumar Singh", "affiliation": "MNIT Prayagraj" },
-    { "name": "Prof. (Dr.) Alok Gupta", "affiliation": "IILM University" },
-    { "name": "Prof. (Dr.) Harish Parthsarathy", "affiliation": "NSUT, New Delhi" },
-    { "name": "Prof. (Dr.) Ravi Shankar Singh", "affiliation": "IIT BHU" },
-    { "name": "Prof. (Dr.) Suman Lata Tripathi", "affiliation": "SIT University, Pune" },
-    { "name": "Dr. Amit Kumar Singh", "affiliation": "IIT BHU" },
-    { "name": "Prof. (Dr.) Rekha Agarwal", "affiliation": "AMITY University" },
-    { "name": "Prof. (Dr.) Amit Prakash Singh", "affiliation": "GGSIPU, New Delhi" },
-    { "name": "Prof. (Dr.) Harsh Vikram Singh", "affiliation": "KNIT Sultanpur" },
-    { "name": "Dr. Dhananjay V Gadre", "affiliation": "NSUT, New Delhi" },
-    { "name": "Dr. Niharika Anand Sharma", "affiliation": "IIIT Lucknow" },
-    { "name": "Dr. Saurabh Shukla", "affiliation": "IIIT Lucknow" },
-    { "name": "Dr. Varun Aragwal", "affiliation": "NIT Sikkim" },
-    { "name": "Dr. Vishal Vishnoi", "affiliation": "NIT Sikkim" },
-    { "name": "Dr. Ankur Kumar", "affiliation": "IIIT Una" },
-    { "name": "Dr. Suneel Yadav", "affiliation": "IIIT Prayagraj" },
-    { "name": "Dr. Anil Yadav", "affiliation": "NIT Jalandhar" },
-    { "name": "Dr. Vikrant Varshney", "affiliation": "Synopsys, Bangalore" },
-    { "name": "Prof. (Dr.) Amit K Ahuja", "affiliation": "JSS Noida" },
-    { "name": "Prof. (Dr.) N. Guruprasad", "affiliation": "Don Bosco, Bangalore" },
-    { "name": "Prof. (Dr.) Mayank Garg", "affiliation": "ITS, Gr. Noida" },
-    { "name": "Prof. (Dr.) Vikram Bali", "affiliation": "MAIT, New Delhi" },
-    { "name": "Prof. (Dr.) Brijesh Singh", "affiliation": "GCET, Greater Noida" },
-    { "name": "Dr. Tanmay Dubey", "affiliation": "IIIT Surat" },
-    { "name": "Dr. Shaswat Pathak", "affiliation": "CEO, AIC" },
-    { "name": "Dr. Subodh Kumar Tripathi", "affiliation": "DBRAIT, Port Blair, Andaman and Nicobar" },
-    { "name": "Dr. Ratneshwar Kumar Ratnesh", "affiliation": "NSUT, Delhi" },
-    { "name": "Dr. Manish Raj", "affiliation": "Galgotia University" },
-    { "name": "Dr. Somendra Shukla", "affiliation": "GNIT, Greater Noida" },
-    { "name": "Dr. Abhay Bansal", "affiliation": "Bennett University" },
-    { "name": "Dr. Suneet Gupta", "affiliation": "AIT-CSE, Chandigarh University" }
-  ],
-    "technicalProgramCommittee": [
-      { "name": "Dr. Neeraj Kumar", "affiliation": "GNIOT, Greater Noida" },
-      { "name": "Dr. Vineet Vishnoi", "affiliation": "SIET, Meerut" },
-      { "name": "Dr. A. K. Singh", "affiliation": "MIET, Meerut" },
-      { "name": "Dr. Nagresh Kumar", "affiliation": "Amity University, Jaipur" },
-      { "name": "Dr. Ankur Garg", "affiliation": "KIET University, Ghaziabad" },
-      { "name": "Dr. Anurag Dwivedi", "affiliation": "Galgotia University, Greater Noida" },
-      { "name": "Dr. Balwant Singh", "affiliation": "IMSEC Ghaziabad" },
-      { "name": "Dr. Shivesh Kumar Tripathi", "affiliation": "GLBITM, Gr. Noida" },
-      { "name": "Dr. Ashok Yadav", "affiliation": "GLBITM, Gr. Noida" },
-      { "name": "Dr. Ajay Gangwar", "affiliation": "Parul University, Gujarat" },
-      { "name": "Dr. Ramesh Verma", "affiliation": "IMSEC Ghaziabad" },
-      { "name": "Dr. Ajay Kumar Singh", "affiliation": "Jain University, Bangalore" },
-      { "name": "Dr. Pradeep Pant", "affiliation": "MIET, Meerut" },
-      { "name": "Dr. Sonia Juneja", "affiliation": "IMSEC Ghaziabad" },
-      { "name": "Dr. Anuradha Taluja", "affiliation": "AKGEC, Ghaziabad" },
-      { "name": "Dr. Sonali Mathur", "affiliation": "IMSEC Ghaziabad" },
-      { "name": "Dr. Raghuraj", "affiliation": "Galgotia University" },
-      { "name": "Dr. Amit Garg", "affiliation": "Manipal University, Jaipur" },
-      { "name": "Dr. Praveen Kumar Chakravarti", "affiliation": "MIET, Meerut" },
-      { "name": "Dr. Punit Mittal", "affiliation": "MIET, Meerut" },
-      { "name": "Dr. Rajkumar", "affiliation": "UPES, Dehradun" },
-      { "name": "Dr. Manuj Kumar Singh", "affiliation": "MJPRU, Bareilly" },
-      { "name": "Dr. Ramesh Kumar", "affiliation": "Chitkara University" },
-      { "name": "Dr. Kamal Singh Rawat", "affiliation": "MIET Kumaon" },
-      { "name": "Dr. Arun Uniyal", "affiliation": "Government Industrial Training Institute, Pantnagar" },
-      { "name": "Dr. Hari Shankar", "affiliation": "Chitkara University" },
-      { "name": "Dr. Vishal Mohan Gupta", "affiliation": "TMU Moradabad" },
-      { "name": "Dr. Navneet Vishnoi", "affiliation": "GNIOT, Greater Noida" },
-      { "name": "Dr. Ajay Kumar", "affiliation": "Marwadi University, Gujarat" },
-      { "name": "Dr. Vishal Jaiswal", "affiliation": "AKGEC, Ghaziabad" },
-      { "name": "Dr. Rakesh Kumar Maurya", "affiliation": "MJPRU, Bareilly" }
-    ]
+        {
+          "name": "Prof. (Dr.) Asheesh Kumar Singh",
+          "affiliation": "MNIT Prayagraj"
+        },
+        {
+          "name": "Prof. (Dr.) N. Guruprasad",
+          "affiliation": "DBIT, Bangalore"
+        },
+        {
+          "name": "Prof. (Dr.) Harish Parthsarathy",
+          "affiliation": "NSUT, New Delhi"
+        },
+        {
+          "name": "Prof. (Dr.) Ravi Shankar Singh",
+          "affiliation": "IIT BHU"
+        },
+        {
+          "name": "Prof. (Dr.) Suman Lata Tripathi",
+          "affiliation": "SIT University, Pune"
+        },
+        {
+          "name": "Dr. Amit Kumar Singh",
+          "affiliation": "IIT BHU"
+        },
+        {
+          "name": "Prof. (Dr.) Rekha Agarwal",
+          "affiliation": "AMITY University"
+        },
+        {
+          "name": "Prof. (Dr.) Amit Prakash Singh",
+          "affiliation": "GGSIPU, New Delhi"
+        },
+        {
+          "name": "Prof. (Dr.) Harsh Vikram Singh",
+          "affiliation": "KNIT Sultanpur"
+        },
+        {
+          "name": "Dr. Dhananjay V Gadre",
+          "affiliation": "NSUT, New Delhi"
+        },
+        {
+          "name": "Dr. Niharika Anand Sharma",
+          "affiliation": "IIIT Lucknow"
+        },
+        {
+          "name": "Dr. Suneel Yadav",
+          "affiliation": "IIIT Prayagraj"
+        },
+        {
+          "name": "Dr. Anil Yadav",
+          "affiliation": "NIT Jalandhar"
+        },
+        {
+          "name": "Prof. (Dr.) Mayank Garg",
+          "affiliation": "ITS, Gr. Noida"
+        },
+        {
+          "name": "Prof. (Dr.) Vikram Bali",
+          "affiliation": "MAIT, New Delhi"
+        },
+        {
+          "name": "Prof. (Dr.) Brijesh Singh",
+          "affiliation": "GCET, Greater Noida"
+        },
+        {
+          "name": "Dr. Subodh Kumar Tripathi",
+          "affiliation": "DBRAIT, Port Blair, Andaman and Nicobar"
+        },
+        {
+          "name": "Dr. Manish Raj",
+          "affiliation": "Galgotia University"
+        },
+        {
+          "name": "Dr. Somendra Shukla",
+          "affiliation": "GNIT, Greater Noida"
+        },
+        {
+          "name": "Dr. Abhay Bansal",
+          "affiliation": "Bennett University"
+        },
+        {
+          "name": "Prof. (Dr.) Mohd Rehan",
+          "affiliation": "NISE Gurugram, Haryana"
+        }
+      ],
+      "technicalProgramCommittee": [
+        {
+          "name": "Dr. Neeraj Kumar",
+          "affiliation": "GNIOT, Greater Noida"
+        },
+        {
+          "name": "Dr. Vineet Vishnoi",
+          "affiliation": "SIET, Meerut"
+        },
+        {
+          "name": "Dr. A. K. Singh",
+          "affiliation": "MIET, Meerut"
+        },
+        {
+          "name": "Dr. Nagresh Kumar",
+          "affiliation": "Amity University, Jaipur"
+        },
+        {
+          "name": "Dr. Ankur Garg",
+          "affiliation": "KIET University, Ghaziabad"
+        },
+        {
+          "name": "Dr. Anurag Dwivedi",
+          "affiliation": "Galgotia University, Greater Noida"
+        },
+        {
+          "name": "Dr. Balwant Singh",
+          "affiliation": "IMSEC Ghaziabad"
+        },
+        {
+          "name": "Dr. Shivesh Kumar Tripathi",
+          "affiliation": "GLBITM, Gr. Noida"
+        },
+        {
+          "name": "Dr. Ashok Yadav",
+          "affiliation": "GLBITM, Gr. Noida"
+        },
+        {
+          "name": "Dr. Ajay Gangwar",
+          "affiliation": "Parul University, Gujarat"
+        },
+        {
+          "name": "Dr. Ramesh Verma",
+          "affiliation": "IMSEC Ghaziabad"
+        },
+        {
+          "name": "Dr. Ajay Kumar Singh",
+          "affiliation": "Jain University, Bangalore"
+        },
+        {
+          "name": "Dr. Pradeep Pant",
+          "affiliation": "MIET, Meerut"
+        },
+        {
+          "name": "Dr. Sonia Juneja",
+          "affiliation": "IMSEC Ghaziabad"
+        },
+        {
+          "name": "Dr. Anuradha Taluja",
+          "affiliation": "AKGEC, Ghaziabad"
+        },
+        {
+          "name": "Dr. Sonali Mathur",
+          "affiliation": "IMSEC Ghaziabad"
+        },
+        {
+          "name": "Dr. Raghuraj",
+          "affiliation": "Galgotia University"
+        },
+        {
+          "name": "Dr. Amit Garg",
+          "affiliation": "Manipal University, Jaipur"
+        },
+        {
+          "name": "Dr. Praveen Kumar Chakravarti",
+          "affiliation": "MIET, Meerut"
+        },
+        {
+          "name": "Dr. Punit Mittal",
+          "affiliation": "MIET, Meerut"
+        },
+        {
+          "name": "Dr. Rajkumar",
+          "affiliation": "UPES, Dehradun"
+        },
+        {
+          "name": "Dr. Manuj Kumar Singh",
+          "affiliation": "MJPRU, Bareilly"
+        },
+        {
+          "name": "Dr. Ramesh Kumar",
+          "affiliation": "Chitkara University"
+        },
+        {
+          "name": "Dr. Kamal Singh Rawat",
+          "affiliation": "MIET Kumaon"
+        },
+        {
+          "name": "Dr. Arun Uniyal",
+          "affiliation": "Government Industrial Training Institute, Pantnagar"
+        },
+        {
+          "name": "Dr. Hari Shankar",
+          "affiliation": "Chitkara University"
+        },
+        {
+          "name": "Dr. Vishal Mohan Gupta",
+          "affiliation": "TMU Moradabad"
+        },
+        {
+          "name": "Dr. Navneet Vishnoi",
+          "affiliation": "GNIOT, Greater Noida"
+        },
+        {
+          "name": "Dr. Ajay Kumar",
+          "affiliation": "Marwadi University, Gujarat"
+        },
+        {
+          "name": "Dr. Vishal Jaiswal",
+          "affiliation": "AKGEC, Ghaziabad"
+        },
+        {
+          "name": "Dr. Rakesh Kumar Maurya",
+          "affiliation": "MJPRU, Bareilly"
+        },
+        {
+          "name": "Dr. Saurabh Shukla",
+          "affiliation": "IIIT Lucknow"
+        },
+        {
+          "name": "Dr. Varun Aragwal",
+          "affiliation": "NIT Sikkim"
+        },
+        {
+          "name": "Prof. (Dr.) Harsh Vikram Singh",
+          "affiliation": "KNIT Sultanpur"
+        },
+        {
+          "name": "Dr. Vishal Vishnoi",
+          "affiliation": "NIT Sikkim"
+        },
+        {
+          "name": "Dr. Ankur Kumar",
+          "affiliation": "IIIT Una"
+        },
+        {
+          "name": "Prof. (Dr.) Rajesh Kumar Maurya",
+          "affiliation": "MJPRU, Bareilly"
+        },
+        {
+          "name": "Dr. Suneel Yadav",
+          "affiliation": "IIIT Prayagraj"
+        },
+        {
+          "name": "Dr. Anil Yadav",
+          "affiliation": "NIT Jalandhar"
+        },
+        {
+          "name": "Dr. Vikrant Varshney",
+          "affiliation": "Synopsis, Bangalore"
+        },
+        {
+          "name": "Prof. (Dr.) Amit K Ahuja",
+          "affiliation": "JSS Noida"
+        },
+        {
+          "name": "Dr. Tanmay Dubey",
+          "affiliation": "IIIT Surat"
+        },
+        {
+          "name": "Dr. Shaswat Pathak",
+          "affiliation": "CEO, AIC"
+        },
+        {
+          "name": "Dr. Subodh Kumar Tripathi",
+          "affiliation": "DBRAIT, Port Blair, Andaman and Nicobar"
+        },
+        {
+          "name": "Dr. Ratneshwar Kumar Ratnesh",
+          "affiliation": "NSUT, Delhi"
+        },
+        {
+          "name": "Dr. Naman Garg",
+          "affiliation": "IIIT Una, HP"
+        },
+        {
+          "name": "Dr. Mrityunjay Singh",
+          "affiliation": "IIIT Una, HP"
+        },
+        {
+          "name": "Dr. Simarpreet Singh",
+          "affiliation": "Bennett University"
+        },
+        {
+          "name": "Dr. Raghura Singhj",
+          "affiliation": "Galgotia University"
+        },
+        {
+          "name": "Dr. Mohan Vishal Gupta",
+          "affiliation": "TMU Moradabad"
+        },
+        {
+          "name": "Dr. Ashish Kumar",
+          "affiliation": "Bennett University, Greater Noida"
+        },
+        {
+          "name": "Dr. Swati Sharma",
+          "affiliation": "MIET, Meerut"
+        },
+        {
+          "name": "Dr. Rajat Chaudhary",
+          "affiliation": "Marwadi University, Gujrat"
+        },
+        {
+          "name": "Dr. Gaurav Kumar",
+          "affiliation": "Alliance university, Bangalore"
+        },
+        {
+          "name": "Dr. Neeraj Bisht",
+          "affiliation": "Pantnagar University, Uttarakhand"
+        },
+        {
+          "name": "Dr. Vimal Kumar",
+          "affiliation": "MMMUT Gorakhpur"
+        },
+        {
+          "name": "Dr. Chandan",
+          "affiliation": "MMMUT Gorakhpur"
+        },
+        {
+          "name": "Dr. Kavindra Garg",
+          "affiliation": "IPEC Ghaziabad"
+        },
+        {
+          "name": "Dr. Ayush Singhal",
+          "affiliation": "MIT Meerut"
+        },
+        {
+          "name": "Dr. Ayushi Prakash",
+          "affiliation": "AKGEC Ghaziabad"
+        },
+        {
+          "name": "Dr. Sakshi",
+          "affiliation": "Bennett University, Greater Noida"
+        },
+        {
+          "name": "Dr. Anamika Singh",
+          "affiliation": "MIET Meerut"
+        },
+        {
+          "name": "Dr. Deepika Pantola",
+          "affiliation": "Bennett University, Greater Noida"
+        },
+        {
+          "name": "Dr. Ranjeet Kumar",
+          "affiliation": "Swarnim Start-up and Innovation University"
+        },
+        {
+          "name": "Dr. Shivani Rohilla",
+          "affiliation": "MIET Meerut"
+        },
+        {
+          "name": "Dr. Kalpana Singh",
+          "affiliation": "Chandigarh University"
+        },
+        {
+          "name": "Dr. Sunil Kumar",
+          "affiliation": "AKGEC Ghaziabad"
+        },
+        {
+          "name": "Dr. Vivek Kumar",
+          "affiliation": "MIET Meerut"
+        },
+        {
+          "name": "Pramendra Kumar Verma",
+          "affiliation": "Scientist E, DEAL (DRDO), Dehradun"
+        },
+        {
+          "name": "Dr. Ravindra Chauhan",
+          "affiliation": "RKGIT Ghaziabad"
+        },
+        {
+          "name": "Dr. Nitin Goel",
+          "affiliation": "RKGIT Ghaziabad"
+        },
+        {
+          "name": "Dr. Vipul Dixit",
+          "affiliation": "Bennett University, Greater Noida"
+        },
+        {
+          "name": "Dr. Neha Mittal",
+          "affiliation": "MIET Meerut"
+        },
+        {
+          "name": "Dr. Baldivya Mitra",
+          "affiliation": "UPES University, Dehradun"
+        },
+        {
+          "name": "Dr. Arpesh Singh",
+          "affiliation": "Galgotia University"
+        },
+        {
+          "name": "Dr. Manoj",
+          "affiliation": "J P university, Noida"
+        },
+        {
+          "name": "Dr. Chandan Chaubey",
+          "affiliation": "IILM University, Greater Noida"
+        },
+        {
+          "name": "Dr. Varun Singhal",
+          "affiliation": "J P University, Khurja, Bulandshahar"
+        },
+        {
+          "name": "Mr. Gaurav Upadhyay",
+          "affiliation": "Scientist, ISRO"
+        },
+        {
+          "name": "Dr. Manish Joshi",
+          "affiliation": "TMU Moradabad"
+        },
+        {
+          "name": "Dr. Pushpendra Dwivedi",
+          "affiliation": "Vidya University, Meerut"
+        },
+        {
+          "name": "Prof. (Dr.) Sanjay Chauhan",
+          "affiliation": "JIT Borawan, Madhya Pradesh"
+        },
+        {
+          "name": "Dr. Himanshu Saxena",
+          "affiliation": "Greater Noida Institute of Technology"
+        },
+        {
+          "name": "Dr. Vibhav Ranjan",
+          "affiliation": "Rishihood University, Haryana"
+        },
+        {
+          "name": "Dr. Priyank Sharma",
+          "affiliation": "MIET Meerut"
+        },
+        {
+          "name": "Dr. Sanchit",
+          "affiliation": "Bennett University, Greater Noida"
+        },
+        {
+          "name": "Dr. Amit Dwivedi",
+          "affiliation": "MMMUT Gorakhpur"
+        },
+        {
+          "name": "Dr. B D Patel",
+          "affiliation": "REC Sonbhadra"
+        },
+        {
+          "name": "Dr. Tanu Wadhera",
+          "affiliation": "IIIT Una, Himachal Pradesh"
+        },
+        {
+          "name": "Dr. Hari Shankar",
+          "affiliation": "Chitkara University, Punjab"
+        },
+        {
+          "name": "Dr. Priyanka Rajput",
+          "affiliation": "REC Mainpuri"
+        },
+        {
+          "name": "Dr. Abhishek Kumar Mishra",
+          "affiliation": "IFTM University, Moradabad"
+        },
+        {
+          "name": "Dr. Sudhir Goswami",
+          "affiliation": "REC Bijnor"
+        },
+        {
+          "name": "Dr. Prashant Johri",
+          "affiliation": "Galgotia University, Greater Noida"
+        },
+        {
+          "name": "Dr. Shalu",
+          "affiliation": "IFTM University, Moradabad"
+        },
+        {
+          "name": "Dr. Sachin Gupta",
+          "affiliation": "Galgotia University, Greater Noida"
+        },
+        {
+          "name": "Dr. Satya Prakash Yadav",
+          "affiliation": "MMMUT Gorakhpur"
+        },
+        {
+          "name": "Dr. Sahil",
+          "affiliation": "NIT Delhi"
+        },
+        {
+          "name": "Dr. Prashant Gupta",
+          "affiliation": "MIET Meerut"
+        },
+        {
+          "name": "Dr. Manish Madhav Tripathi",
+          "affiliation": "Integral University, Lucknow"
+        },
+        {
+          "name": "Dr. Indradeep Verma",
+          "affiliation": "Greater Noida Institute of Technology"
+        },
+        {
+          "name": "Dr. Ranjana Sharma",
+          "affiliation": "SRMS University Ghaziabad"
+        },
+        {
+          "name": "Prof. (Dr.) Adesh Kumar",
+          "affiliation": "UPES Dehradun"
+        },
+        {
+          "name": "Dr. Roopal Gupata",
+          "affiliation": "Teerthanker Mahaveer University"
+        },
+        {
+          "name": "Dr. Anu Sharma",
+          "affiliation": "Moradabad institute of Technology"
+        },
+        {
+          "name": "Dr. Surendra Gautam",
+          "affiliation": "Ajay Kumar Garg Engineering College, Ghaziabad"
+        },
+        {
+          "name": "Dr. Shailendra Saxena",
+          "affiliation": "Greater Noida Institute of Technology"
+        },
+        {
+          "name": "Dr. Rajkumar",
+          "affiliation": "Scientist-G, DEAL (DRDO), Dehradun"
+        },
+        {
+          "name": "Mr. Gopal Patel",
+          "affiliation": "Scientist-G, DEAL (DRDO), Dehradun"
+        }
+     ]
   },
 
   "paperSubmission": {
@@ -407,7 +877,7 @@
   "sponsors": {
     "heading": "Technical Sponsor",
     "kicker": "Supported By",
-    "items": [{ "name": "IEEE Delhi Section", "tier": "Technical Sponsor" }]
+    "items": [{ "name": "To be added soon", "tier": "Technical Sponsor" }]
   },
 
   "contact": {
@@ -422,7 +892,7 @@
 
   "footer": {
     "text": "ICSCCI 2027 · Echelon Institute of Technology, Faridabad",
-    "disclaimer": "Technically sponsored by the IEEE Delhi Section."
+    "disclaimer": ""
   }
 }
 

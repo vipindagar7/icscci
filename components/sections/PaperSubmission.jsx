@@ -13,6 +13,7 @@ export default function PaperSubmission() {
       <div className="mx-auto  px-6">
         <FadeIn>
           <p className="section-kicker">{ps.kicker}</p>
+          
           <h2 className="section-heading mt-2">{ps.heading}</h2>
           <p className="mt-4 max-w-2xl text-foreground/80">{ps.intro}</p>
         </FadeIn>

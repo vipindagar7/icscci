@@ -1,0 +1,231 @@
+{
+  "nationalAdvisoryCommittee": [
+    {
+      "name": "Prof. (Dr.) Asheesh Kumar Singh",
+      "affiliation": "MNIT Prayagraj"
+    },
+    {
+      "name": "Prof. (Dr.) Alok Gupta",
+      "affiliation": "IILM University"
+    },
+    {
+      "name": "Prof. (Dr.) Harish Parthsarathy",
+      "affiliation": "NSUT, New Delhi"
+    },
+    {
+      "name": "Prof. (Dr.) Ravi Shankar Singh",
+      "affiliation": "IIT BHU"
+    },
+    {
+      "name": "Prof. (Dr.) Suman Lata Tripathi",
+      "affiliation": "SIT University, Pune"
+    },
+    {
+      "name": "Dr. Amit Kumar Singh",
+      "affiliation": "IIT BHU"
+    },
+    {
+      "name": "Prof. (Dr.) Rekha Agarwal",
+      "affiliation": "AMITY University"
+    },
+    {
+      "name": "Prof. (Dr.) Amit Prakash Singh",
+      "affiliation": "GGSIPU, New Delhi"
+    },
+    {
+      "name": "Prof. (Dr.) Harsh Vikram Singh",
+      "affiliation": "KNIT Sultanpur"
+    },
+    {
+      "name": "Dhananjay V Gadre",
+      "affiliation": "NSUT, New Delhi"
+    },
+    {
+      "name": "Dr. Niharika Anand Sharma",
+      "affiliation": "IIIT Lucknow"
+    },
+    {
+      "name": "Prof. (Dr.) Manish Raj",
+      "affiliation": "Galgotia University"
+    },
+    {
+      "name": "Prof. (Dr.) Somendra Shukla",
+      "affiliation": "GNIT, Greater Noida"
+    },
+    {
+      "name": "Prof. (Dr.) Abhay Bansal",
+      "affiliation": "Bennett University"
+    },
+    {
+      "name": "Prof. (Dr.) Mohd Rehan",
+      "affiliation": "NISE Gurugram, Haryana"
+    },
+    {
+      "name": "Prof. (Dr.) N. Guruprasad",
+      "affiliation": "DBIT, Bangalore"
+    },
+    {
+      "name": "Prof. (Dr.) Mayank Garg",
+      "affiliation": "ITS, Gr. Noida"
+    },
+    {
+      "name": "Prof. (Dr.) Vikram Bali",
+      "affiliation": "MAIT, New Delhi"
+    },
+    {
+      "name": "Prof. (Dr.) Brijesh Singh",
+      "affiliation": "GCET, Greater Noida"
+    },
+    {
+      "name": "Dr. Suneel Yadav",
+      "affiliation": "IIIT Prayagraj"
+    },
+    {
+      "name": "Dr. Anil Yadav",
+      "affiliation": "NIT Jalandhar"
+    },
+    {
+      "name": "Dr. Subodh Kumar Tripathi",
+      "affiliation": "DBRAIT, Port Blair, Andaman and Nicobar"
+    }
+  ],
+  "technicalProgramCommittee": [
+    {
+      "name": "Dr. Saurabh Shukla",
+      "affiliation": "IIIT Lucknow"
+    },
+    {
+      "name": "Dr. Varun Aragwal",
+      "affiliation": "NIT Sikkim"
+    },
+    {
+      "name": "Prof. (Dr.) Harsh Vikram Singh",
+      "affiliation": "KNIT Sultanpur"
+    },
+    {
+      "name": "Dr. Vishal Vishnoi",
+      "affiliation": "NIT Sikkim"
+    },
+    {
+      "name": "Dr. Ankur Kumar",
+      "affiliation": "IIIT Una"
+    },
+    {
+      "name": "Prof. (Dr.) Rajesh Kumar Maurya",
+      "affiliation": "MJPRU, Bareilly"
+    },
+    {
+      "name": "Dr. Suneel Yadav",
+      "affiliation": "IIIT Prayagraj"
+    },
+    {
+      "name": "Dr. Anil Yadav",
+      "affiliation": "NIT Jalandhar"
+    },
+    {
+      "name": "Dr. Vikrant Varshney",
+      "affiliation": "Synopsis, Bangalore"
+    },
+    {
+      "name": "Prof. (Dr.) Amit K Ahuja",
+      "affiliation": "JSS Noida"
+    },
+    {
+      "name": "Dr. Tanmay Dubey",
+      "affiliation": "IIIT Surat"
+    },
+    {
+      "name": "Dr. Shaswat Pathak",
+      "affiliation": "CEO, AIC"
+    },
+    {
+      "name": "Dr. Subodh Kumar Tripathi",
+      "affiliation": "DBRAIT, Port Blair, Andaman and Nicobar"
+    },
+    {
+      "name": "Dr. Ratneshwar Kumar Ratnesh",
+      "affiliation": "NSUT, Delhi"
+    },
+    {
+      "name": "Dr. Naman Garg",
+      "affiliation": "IIIT Una, HP"
+    },
+    {
+      "name": "Dr. Mrityunjay Singh",
+      "affiliation": "IIIT Una, HP"
+    },
+    {
+      "name": "Dr. Neeraj Kumar",
+      "affiliation": "GNIOT, Greater Noida"
+    },
+    {
+      "name": "Dr. Vineet Vishnoi",
+      "affiliation": "SIET, Meerut"
+    },
+    {
+      "name": "Dr. A. K. Singh",
+      "affiliation": "MIET, Meerut"
+    },
+    {
+      "name": "Dr. Nagresh Kumar",
+      "affiliation": "Amity University, Jaipur"
+    },
+    {
+      "name": "Dr. Ankur Garg",
+      "affiliation": "KIET University, Ghaziabad"
+    },
+    {
+      "name": "Dr. Anurag Dwivedi",
+      "affiliation": "Galgotia University, Greater Noida"
+    },
+    {
+      "name": "Dr. Balwant Singh",
+      "affiliation": "IMSEC Ghaziabad"
+    },
+    {
+      "name": "Dr. Shivesh Kumar Tripathi",
+      "affiliation": "GLBITM, Gr. Noida"
+    },
+    {
+      "name": "Dr. Ashok Yadav",
+      "affiliation": "GLBITM, Gr. Noida"
+    },
+    {
+      "name": "Dr. Ajay Gangwar",
+      "affiliation": "Parul University, Gujrat"
+    },
+    {
+      "name": "Dr. Ramesh Verma",
+      "affiliation": "IMSEC Ghaziabad"
+    },
+    {
+      "name": "Dr. Ajay Kumar Singh",
+      "affiliation": "Jain University, Banglore"
+    },
+    {
+      "name": "Dr. Pradeep Pant",
+      "affiliation": "MIET, Meerut"
+    },
+    {
+      "name": "Dr. Sonia Juneja",
+      "affiliation": "IMSEC Ghaziabad"
+    },
+    {
+      "name": "Dr. Anuradha Taluja",
+      "affiliation": "AKGEC, Ghaziabad"
+    },
+    {
+      "name": "Dr. Sonali Mathur",
+      "affiliation": "IMSEC Ghaziabad"
+    },
+    {
+      "name": "Dr. Simarpreet Singh",
+      "affiliation": "Bennett University"
+    },
+    {
+      "name": "Dr. Raghura Singhj",
+      "affiliation": "Galgotia University"
+    }
+  ],
+  "note": "Technical committee truncated. Continue appending remaining names from your message after 'Dr. Raghura Singhj'."
+}

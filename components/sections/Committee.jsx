@@ -53,11 +53,27 @@ export default function Committee() {
           </div>
         </FadeIn> */}
 
+
+        {/* organising committee */}
+        <FadeIn className="mt-16">
+          <h3 className="font-display text-lg font-semibold text-foreground">Organizing Committee</h3>
+          <div className="relative mt-6">
+            <Marquee pauseOnHover className="[--duration:30s]">
+              {committee["Organizing Committee"].map((m, i) => (
+                <NameCard key={i} name={m.name} affiliation={m.affiliation} />
+              ))}
+            </Marquee>
+            <div className="pointer-events-none absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-muted to-transparent" />
+            <div className="pointer-events-none absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-muted to-transparent" />
+          </div>
+        </FadeIn>
+
+
         {/* international advisory */}
         <FadeIn className="mt-16">
           <h3 className="font-display text-lg font-semibold text-foreground">International Advisory Committee</h3>
           <div className="relative mt-6">
-            <Marquee pauseOnHover reverse className="[--duration:50s]">
+            <Marquee pauseOnHover className="[--duration:50s]">
               {committee.internationalAdvisoryCommittee.map((m, i) => (
                 <Card key={i} className="group w-[400px] h-full overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/10">
                   <CardContent className="flex flex-col items-center pt-8 text-center">

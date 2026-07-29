@@ -9,9 +9,10 @@ import { DownloadsList } from "./DownloadList";
 
 export default function CallForPapers() {
   const cfp = content.callForPapers;
+  const tracks = content.tracks;
 
   return (
-    <section className="bg-background py-20 md:py-28">
+    <section className="bg-background py-20 md:py-28 text-justify">
       <div className="mx-auto  px-6">
         <div className="mt-6 flex flex-col gap-8 lg:flex-row lg:justify-between">
           {/* Left Content */}
@@ -21,6 +22,11 @@ export default function CallForPapers() {
             <p className="mt-4 text-foreground/80">
               {cfp.intro}
             </p>
+            <p className="section-heading mt-2">{tracks.kicker}</p>
+            {tracks.kickerDesc.map((p, i) => (
+              <p key={i} className="mt-4 text-muted-foreground">{p}</p>
+            ))
+            }
           </FadeIn>
 
           {/* Right Card */}

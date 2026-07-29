@@ -39,7 +39,7 @@ export default function Footer() {
 
             </div>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">{footer.text}</p>
-            <p className="mt-2 text-xs text-muted-foreground/70">{footer.disclaimer}</p>
+            {/* <p className="mt-2 text-xs text-muted-foreground/70">{footer.disclaimer}</p> */}
           </div>
 
           <div>

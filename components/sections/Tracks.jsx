@@ -12,9 +12,9 @@ export default function Tracks() {
     <section className="bg-background py-20 md:py-28">
       <div className="mx-auto  px-6">
         <FadeIn>
-          <p className="section-kicker">{tracks.kicker}</p>
+          {/* <p className="section-kicker">{tracks.kicker}</p> */}
           <h2 className="section-heading mt-2">{tracks.heading}</h2>
-          <p className="mt-4 max-w-2xl text-muted-foreground">{tracks.intro}</p>
+          <p className="mt-4 text-muted-foreground">{tracks.intro}</p>
         </FadeIn>
 
         <FadeIn delay={0.1}>
