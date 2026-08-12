@@ -11,6 +11,7 @@ import { useState } from "react";
 
 export default function Committee() {
   const [showAllTechnical, setShowAllTechnical] = useState(false);
+  const [showAllNational, setShowAllNational] = useState(false);
 
   const committee = content.committee;
 
@@ -103,17 +104,49 @@ export default function Committee() {
 
         {/* national advisory */}
 
-        <FadeIn className="mt-16">
-          <h3 className="font-display text-lg font-semibold text-foreground">National Advisory Committee</h3>
-          <div className="relative mt-6">
-            <Marquee pauseOnHover className="[--duration:250s]">
-              {committee.nationalAdvisoryCommittee.map((m, i) => (
-                <NameCard key={i} name={m.name} affiliation={m.affiliation} />
-              ))}
-            </Marquee>
-            <div className="pointer-events-none absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-muted to-transparent" />
-            <div className="pointer-events-none absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-muted to-transparent" />
+        <FadeIn className="mt-12" delay={0.1}>
+          <div className="flex items-start justify-between gap-4">
+            <div>
+              <h3 className="font-display text-lg font-semibold text-foreground">
+                National Advisory Commitee
+              </h3>
+            </div>
+
+            <button
+              type="button"
+              onClick={() => setShowAllNational((prev) => !prev)}
+              className="shrink-0 rounded-md border px-4 py-2 text-sm font-medium transition-colors hover:bg-muted"
+            >
+              {showAllNational ? "Show Less" : "Show All"}
+            </button>
           </div>
+
+          {!showAllNational ? (
+            <div className="relative mt-6">
+              <Marquee pauseOnHover className="[--duration:1000s]">
+                {committee.nationalAdvisoryCommittee.map((m, i) => (
+                  <NameCard
+                    key={i}
+                    name={m.name}
+                    affiliation={m.affiliation}
+                  />
+                ))}
+              </Marquee>
+
+              <div className="pointer-events-none absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-muted to-transparent" />
+              <div className="pointer-events-none absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-muted to-transparent" />
+            </div>
+          ) : (
+            <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+              {committee.nationalAdvisoryCommittee.map((m, i) => (
+                <NameCard
+                  key={i}
+                  name={m.name}
+                  affiliation={m.affiliation}
+                />
+              ))}
+            </div>
+          )}
         </FadeIn>
 
 

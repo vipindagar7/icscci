@@ -11,9 +11,11 @@
     "host": "Echelon Institute of Technology (EIT), Faridabad",
     "dateRange": "20–21 March 2027",
     "venueShort": "Echelon Institute of Technology, Faridabad",
-    "email": "deanresearch@eitfaridabad.co.in",
+      "email": "deanresearch@eitfaridabad.edu.in",
+    "secondaryEmail":"joshi.nrj10@gmail.com",
     "phone": "+91-7983660661",
-    "submissionUrl": "#",
+    "secondaryPhone": "+91-9027588815",
+    "submissionUrl": "https://cmt3.research.microsoft.com/ICSCCI2027",
     "developerUrl": "https://www.linkedin.com/in/vipindagar07/",
     "developer": "Vipin Dagar"
   },
@@ -220,7 +222,7 @@
       "Similarity/plagiarism score must not exceed 15%, per IEEE plagiarism guidelines."
     ],
     "downloads": [
-      { "label": "Download Conference Informatrion Brochure", "href": "#" },
+      { "label": "Download Conference Informatrion Brochure", "href": "" },
       { "label": "Download Paper Template (Microsoft Word)", "href": "/conference_template.docx" },
       { "label": "Download Paper Template Instructions (LaTeX)", "href": "/Paper_Latex_Template_Instructions.pdf" },
       { "label": "Download LaTeX Template (ZIP, 700 KB)", "href": "/ICSCCI27_conference-latex-template_10-17-19.zip" }
@@ -373,7 +375,11 @@
   { "name": "Prof. (Dr.) Anesh Kumar Maharaj", "affiliation": "University of KwaZulu-Natal, Durban, South Africa", "profile": "/prof-dr-anesh-kumar-maharaj.png" },
   { "name": "Dr. Vishal Krishna Singh", "affiliation": "University of Essex, Colchester, United Kingdom", "profile": "/dr-vishal-krishna-singh.png" },
   { "name": "Dr. Krisanu Roy", "affiliation": "University of Waikato, Hamilton, New Zealand", "profile": "/dr-krisanu-roy.png" },
-  { "name": "More To Be Announced", "affiliation": "More To Be Announced", "profile": "" }
+  { "name": "Prof. (Dr.) Mohammad Maroof Siddiqui", "affiliation": "Electrical and Computer Engineering Department, Dhofar University, Oman", "profile": "" },
+  { "name": "Prof. (Dr.) Dilip K Prasad", "affiliation": "UiT The Arctic University of Norway", "profile": "" },
+  { "name": "Dr. Maanak Gupta", "affiliation": "Tennessee Technological University, Cookeville, Tennessee, United States", "profile": "" },
+  { "name": "More To Be Announced", "affiliation": "More To Be Announced", "profile": ""}
+  
 ],
 
     "nationalAdvisoryCommittee": [
@@ -2116,7 +2122,7 @@
     "email": "deanresearch@eitfaridabad.edu.in",
     "secondaryEmail":"joshi.nrj10@gmail.com",
     "phone": "+91-7983660661",
-    "secondaryContact": "+91-9027588815",
+    "secondaryPhone": "+91-9027588815",
     "address": "Echelon Institute of Technology, Faridabad, Haryana, India"
   },
 
