@@ -50,7 +50,7 @@ export default function CallForPapers() {
                 <DownloadsList downloads={cfp.downloads} />
 
                 <Button asChild variant="accent" className="mt-6 w-full">
-                  <a href={cfp.submissionLink.href}>
+                  <a target="_blank" href={cfp.submissionLink.href}>
                     {cfp.submissionLink.label}
                   </a>
                 </Button>

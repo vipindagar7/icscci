@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="flex justify-between flex-wrap">
           <div>
             <div className="flex items-center gap-3">
-      
+
               {/* echelon logo */}
               <Link
                 href="https://www.eitfaridabad.com"
@@ -64,8 +64,18 @@ export default function Footer() {
                 </a>
               </li>
               <li>
+                <a href={`mailto:${contact.secondaryEmail}`} className="hover:text-foreground">
+                  {contact.secondaryEmail}
+                </a>
+              </li>
+              <li>
                 <a href={`tel:${contact.phone}`} className="hover:text-foreground">
                   {contact.phone}
+                </a>
+              </li>
+              <li>
+                 <a href={`tel:${contact.secondaryPhone}`} className="hover:text-foreground">
+                  {contact.secondaryPhone}
                 </a>
               </li>
               <li className="text-muted-foreground">{contact.address}</li>

@@ -13,9 +13,21 @@
   --page-accent: var(--accent);
   --page-accent-foreground: var(--accent-foreground);
 }
-.theme-gold  { --page-accent: var(--accent);    --page-accent-foreground: var(--accent-foreground); }
-.theme-blue  { --page-accent: var(--secondary); --page-accent-foreground: var(--secondary-foreground); }
-.theme-navy  { --page-accent: var(--primary);   --page-accent-foreground: var(--primary-foreground); }
+
+.theme-gold {
+  --page-accent: var(--accent);
+  --page-accent-foreground: var(--accent-foreground);
+}
+
+.theme-blue {
+  --page-accent: var(--secondary);
+  --page-accent-foreground: var(--secondary-foreground);
+}
+
+.theme-navy {
+  --page-accent: var(--primary);
+  --page-accent-foreground: var(--primary-foreground);
+}
 
 html {
   scroll-behavior: smooth;
@@ -41,3 +53,6 @@ html {
     transition-duration: 0.001ms !important;
   }
 }
+
+
+

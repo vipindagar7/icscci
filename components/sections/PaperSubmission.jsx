@@ -13,7 +13,7 @@ export default function PaperSubmission() {
       <div className="mx-auto  px-6">
         <FadeIn>
           <p className="section-kicker">{ps.kicker}</p>
-          
+
           <h2 className="section-heading mt-2">{ps.heading}</h2>
           <p className="mt-4 max-w-2xl text-foreground/80">{ps.intro}</p>
         </FadeIn>
@@ -31,9 +31,23 @@ export default function PaperSubmission() {
           ))}
         </Stagger>
 
-        <FadeIn delay={0.15}>
+        <FadeIn delay={0.15} className="">
+          <h2 className="section-heading mt-2">{ps.plagHeading}</h2>
+          <p className="mt-4 text-foreground/80">{ps.plagDesc}</p>
+          <Button asChild variant="accent" size="lg" className="mt-4">
+            <a target="_blank" href={ps.plagLink}>
+              {ps.plagLinkLabel}
+            </a>
+          </Button>
+        </FadeIn>
+
+
+
+        <FadeIn delay={0.25}>
           <Button asChild variant="default" size="lg" className="mt-8">
-            <a href={ps.submissionLink.href}>{ps.submissionLink.label}</a>
+            <a target="_blank" href={ps.submissionLink.href}>
+              {ps.submissionLink.label}
+            </a>
           </Button>
         </FadeIn>
       </div>

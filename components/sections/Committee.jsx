@@ -7,8 +7,11 @@ import { FadeIn, Stagger, staggerItem } from "@/components/motion/FadeIn";
 import { motion } from "framer-motion";
 import { PlaceholderImage } from "../PlaceholderImage";
 import { div } from "framer-motion/client";
+import { useState } from "react";
 
 export default function Committee() {
+  const [showAllTechnical, setShowAllTechnical] = useState(false);
+
   const committee = content.committee;
 
   return (
@@ -83,10 +86,8 @@ export default function Committee() {
                         <PlaceholderImage src={m.profile} alt={m.name} label={m.name} className="h-full w-full" />
                       </div>
                     </div>
-
                     <h3 className="mt-5 font-display text-base font-semibold text-foreground">{m.name}</h3>
                     <p className="mt-1 text-xs text-muted-foreground">{m.affiliation}</p>
-
                     {m.topic && (
                       <p className="mt-4 border-t border-border pt-4 text-sm text-foreground/70">{m.topic}</p>
                     )}
@@ -116,20 +117,53 @@ export default function Committee() {
         </FadeIn>
 
 
+        {/* technical program committee */}
         <FadeIn className="mt-12" delay={0.1}>
-          <h3 className="font-display text-lg font-semibold text-foreground">Technical Program Committee</h3>
-          <p className="mt-1 text-sm text-muted-foreground">
-            Members reviewing submissions across all tracks.
-          </p>
-          <div className="relative mt-6">
-            <Marquee pauseOnHover className="[--duration:200s]">
-              {committee.technicalProgramCommittee.map((m, i) => (
-                <NameCard key={i} name={m.name} affiliation={m.affiliation} />
-              ))}
-            </Marquee>
-            <div className="pointer-events-none absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-muted to-transparent" />
-            <div className="pointer-events-none absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-muted to-transparent" />
+          <div className="flex items-start justify-between gap-4">
+            <div>
+              <h3 className="font-display text-lg font-semibold text-foreground">
+                Technical Program Committee
+              </h3>
+              <p className="mt-1 text-sm text-muted-foreground">
+                Members reviewing submissions across all tracks.
+              </p>
+            </div>
+
+            <button
+              type="button"
+              onClick={() => setShowAllTechnical((prev) => !prev)}
+              className="shrink-0 rounded-md border px-4 py-2 text-sm font-medium transition-colors hover:bg-muted"
+            >
+              {showAllTechnical ? "Show Less" : "Show All"}
+            </button>
           </div>
+
+          {!showAllTechnical ? (
+            <div className="relative mt-6">
+              <Marquee pauseOnHover className="[--duration:1000s]">
+                {committee.technicalProgramCommittee.map((m, i) => (
+                  <NameCard
+                    key={i}
+                    name={m.name}
+                    affiliation={m.affiliation}
+                  />
+                ))}
+              </Marquee>
+
+              <div className="pointer-events-none absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-muted to-transparent" />
+              <div className="pointer-events-none absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-muted to-transparent" />
+            </div>
+          ) : (
+            <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+              {committee.technicalProgramCommittee.map((m, i) => (
+                <NameCard
+                  key={i}
+                  name={m.name}
+                  affiliation={m.affiliation}
+                />
+              ))}
+            </div>
+          )}
         </FadeIn>
       </div>
     </section>

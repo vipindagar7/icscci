@@ -27,11 +27,16 @@ export default function Tracks() {
               ))}
             </TabsList>
 
-            {tracks.items.map((t) => (
+            {tracks.items.map((t,i) => (
               <TabsContent key={t.code} value={t.code}>
                 <Card>
                   <CardContent className="pt-6">
-                    <h3 className="font-display text-xl font-semibold text-foreground">{t.title}</h3>
+                    <h3 className="font-display text-xl font-semibold text-foreground"> {`Track ${i+1} :`}  {t.title}</h3>
+                    {t.chairs?.map((chair) => (
+                      <p key={chair.name} className="text-sm font-bold">
+                        {chair.name} - {chair.affilations}
+                      </p>
+                    ))}
                     <ul className="mt-4 grid gap-2 sm:grid-cols-2">
                       {t.topics.map((topic) => (
                         <li key={topic} className="flex items-start gap-2 text-sm text-muted-foreground">

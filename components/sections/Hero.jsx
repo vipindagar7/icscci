@@ -59,8 +59,10 @@ export default function Hero() {
         </motion.div>
 
         <motion.p variants={item} className="max-w-2xl text-base leading-relaxed text-surface-foreground/75 md:text-lg">
-          {hero.subtitle}
+          The International Conference on “Smart Connectivity and Computational Intelligence (ICSCCI-2027)” provides an international forum for presenting state-of-the-art research, innovations, and emerging trends in smart connectivity and computational intelligence. The conference focuses on <span className="italic">5G/6G and beyond wireless networks, AI-native communication, IoT, edge–cloud computing, Artificial Intelligence (ML, DL, and RL), Agentic AI, cybersecurity, trustworthy AI, intelligent automation, optimization, and autonomous systems.</span> It also explores their applications in <span className="italic">smart cities, intelligent transportation, healthcare, Industry 4.0/5.0, cyber-physical systems (CPS), and sustainable digital infrastructures</span>. By bringing together researchers, academicians, industry professionals, and practitioners, ICSCCI-2027 promotes interdisciplinary collaboration and knowledge exchange towards advancing intelligent, secure, adaptive, and sustainable connected ecosystems for the next generation of digital society.
         </motion.p>
+
+        <motion.p className="max-w-2xl text-base leading-relaxed text-surface-foreground/75 md:text-lg">The theme of the conference is <span className="mt-3 max-w-2xl font-mono text-sm uppercase tracking-[0.15em] text-goldLight md:text-base">"Bridging Connectivity and Intelligence for Digital Transformation"</span>.</motion.p>
 
         <motion.div variants={item} className="flex flex-wrap items-center gap-4">
           <Button asChild variant="accent" size="lg">
