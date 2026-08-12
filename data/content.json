@@ -379,95 +379,139 @@
   { "name": "Prof. (Dr.) Dilip K Prasad", "affiliation": "UiT The Arctic University of Norway", "profile": "" },
   { "name": "Dr. Maanak Gupta", "affiliation": "Tennessee Technological University, Cookeville, Tennessee, United States", "profile": "" },
   { "name": "More To Be Announced", "affiliation": "More To Be Announced", "profile": ""}
-  
+
 ],
 
     "nationalAdvisoryCommittee": [
-        {
-          "name": "Prof. (Dr.) Asheesh Kumar Singh",
-          "affiliation": "MNIT Prayagraj"
-        },
-        {
-          "name": "Prof. (Dr.) N. Guruprasad",
-          "affiliation": "DBIT, Bangalore"
-        },
-        {
-          "name": "Prof. (Dr.) Harish Parthsarathy",
-          "affiliation": "NSUT, New Delhi"
-        },
-        {
-          "name": "Prof. (Dr.) Ravi Shankar Singh",
-          "affiliation": "IIT BHU"
-        },
-        {
-          "name": "Prof. (Dr.) Suman Lata Tripathi",
-          "affiliation": "SIT University, Pune"
-        },
-        {
-          "name": "Dr. Amit Kumar Singh",
-          "affiliation": "IIT BHU"
-        },
-        {
-          "name": "Prof. (Dr.) Rekha Agarwal",
-          "affiliation": "AMITY University"
-        },
-        {
-          "name": "Prof. (Dr.) Amit Prakash Singh",
-          "affiliation": "GGSIPU, New Delhi"
-        },
-        {
-          "name": "Prof. (Dr.) Harsh Vikram Singh",
-          "affiliation": "KNIT Sultanpur"
-        },
-        {
-          "name": "Dr. Dhananjay V Gadre",
-          "affiliation": "NSUT, New Delhi"
-        },
-        {
-          "name": "Dr. Niharika Anand Sharma",
-          "affiliation": "IIIT Lucknow"
-        },
-        {
-          "name": "Dr. Suneel Yadav",
-          "affiliation": "IIIT Prayagraj"
-        },
-        {
-          "name": "Dr. Anil Yadav",
-          "affiliation": "NIT Jalandhar"
-        },
-        {
-          "name": "Prof. (Dr.) Mayank Garg",
-          "affiliation": "ITS, Gr. Noida"
-        },
-        {
-          "name": "Prof. (Dr.) Vikram Bali",
-          "affiliation": "MAIT, New Delhi"
-        },
-        {
-          "name": "Prof. (Dr.) Brijesh Singh",
-          "affiliation": "GCET, Greater Noida"
-        },
-        {
-          "name": "Dr. Subodh Kumar Tripathi",
-          "affiliation": "DBRAIT, Port Blair, Andaman and Nicobar"
-        },
-        {
-          "name": "Dr. Manish Raj",
-          "affiliation": "Galgotia University"
-        },
-        {
-          "name": "Dr. Somendra Shukla",
-          "affiliation": "GNIT, Greater Noida"
-        },
-        {
-          "name": "Dr. Abhay Bansal",
-          "affiliation": "Bennett University"
-        },
-        {
-          "name": "Prof. (Dr.) Mohd Rehan",
-          "affiliation": "NISE Gurugram, Haryana"
-        }
-      ],
+  {
+    "name": "Prof. (Dr.) S. N. Singh",
+    "affiliation": "Professor, IIT Kanpur; Director, ABV-IIITM Gwalior"
+  },
+  {
+    "name": "Prof. (Dr.) B. K. Kanaujia",
+    "affiliation": "Director, NIT Jalandhar"
+  },
+  {
+    "name": "Prof. (Dr.) Asheesh Kumar Singh",
+    "affiliation": "MNIT Prayagraj"
+  },
+  {
+    "name": "Prof. (Dr.) Harish Parthsarathy",
+    "affiliation": "NSUT, New Delhi"
+  },
+  {
+    "name": "Prof. (Dr.) Ravi Shankar Singh",
+    "affiliation": "IIT BHU"
+  },
+  {
+    "name": "Prof. (Dr.) Amit Prakash Singh",
+    "affiliation": "GGSIPU, New Delhi"
+  },
+  {
+    "name": "Prof. (Dr.) Harsh Vikram Singh",
+    "affiliation": "KNIT Sultanpur"
+  },
+  {
+    "name": "Prof. R. K. Nagaria",
+    "affiliation": "MNNIT Allahabad"
+  },
+  {
+    "name": "Prof. (Dr.) Mohd Rehan",
+    "affiliation": "NISE Gurugram, Haryana"
+  },
+  {
+    "name": "Prof. Manoj Kumar",
+    "affiliation": "NIT Delhi"
+  },
+  {
+    "name": "Prof. S. S. Gill",
+    "affiliation": "NITTTR Chandigarh"
+  },
+  {
+    "name": "Prof. Minakshi Sood",
+    "affiliation": "NITTTR Chandigarh"
+  },
+  {
+    "name": "Dr. Vikas Mittal",
+    "affiliation": "NIT Kurukshetra"
+  },
+  {
+    "name": "Dr. Suneel Yadav",
+    "affiliation": "IIIT Prayagraj"
+  },
+  {
+    "name": "Dr. Anil Yadav",
+    "affiliation": "NIT Jalandhar"
+  },
+  {
+    "name": "Dr. Amit Kumar Singh",
+    "affiliation": "IIT BHU"
+  },
+  {
+    "name": "Dhananjay V Gadre",
+    "affiliation": "NSUT, New Delhi"
+  },
+  {
+    "name": "Dr. Niharika Anand Sharma",
+    "affiliation": "IIIT Lucknow"
+  },
+  {
+    "name": "Dr. Subodh Kumar Tripathi",
+    "affiliation": "DBRAIT, Port Blair, Andaman and Nicobar"
+  },
+  {
+    "name": "Dr. Taimoor Khan",
+    "affiliation": "NIT Silchar"
+  },
+  {
+    "name": "Dr. Ashish Raman",
+    "affiliation": "NIT Jalandhar"
+  },
+  {
+    "name": "Dr. Balwinder Raj",
+    "affiliation": "NIT Jalandhar"
+  },
+  {
+    "name": "Prof. (Dr.) Alok Chauhan",
+    "affiliation": "ABESEC, Ghaziabad"
+  },
+  {
+    "name": "Prof. (Dr.) Suman Lata Tripathi",
+    "affiliation": "SIT University, Pune"
+  },
+  {
+    "name": "Prof. (Dr.) Rekha Agarwal",
+    "affiliation": "AMITY University"
+  },
+  {
+    "name": "Prof. (Dr.) Manish Raj",
+    "affiliation": "Galgotia University"
+  },
+  {
+    "name": "Prof. (Dr.) Somendra Shukla",
+    "affiliation": "GNIT, Greater Noida"
+  },
+  {
+    "name": "Prof. (Dr.) Mayank Garg",
+    "affiliation": "ITS, Greater Noida"
+  },
+  {
+    "name": "Prof. (Dr.) Abhay Bansal",
+    "affiliation": "Bennett University"
+  },
+  {
+    "name": "Prof. (Dr.) N. Guruprasad",
+    "affiliation": "DBIT, Bangalore"
+  },
+  {
+    "name": "Prof. (Dr.) Vikram Bali",
+    "affiliation": "MAIT, New Delhi"
+  },
+  {
+    "name": "Prof. (Dr.) Brijesh Singh",
+    "affiliation": "GCET, Greater Noida"
+  }
+],
      "technicalProgramCommittee": [
     {
       "name": "Dr. Antonino Galletta",
