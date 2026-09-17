@@ -553,6 +553,16 @@
       "name": "Dr. Maanak Gupta",
       "affiliation": "Tennessee Technological University, Tennessee, USA"
     },
+    
+    {
+      "name": "Dr. Gopal Rathinam",
+      "affiliation": ", University of Buraimi, Oman"
+    },
+    {
+      "name": "Charu Rathnam Singh",
+      "affiliation": "Software Development Engineer II, Amazon Web Services, Vienna, Virgenia, USA"
+    },
+
     {
       "name": "Dr. Saurabh Shukla",
       "affiliation": "IIIT Lucknow"
@@ -2127,7 +2137,9 @@
 {"name":"Prof. (Dr.) Ajit  Samagonda  Patil","affiliation": "D Y Patil Education Society Deemed to be University Kolhapur "},
 {"name":"Dr. Dikshan N Shah", "affiliation":"Kaushalya - The Skill University"},
 {"name":"Dr. JESMON RAJ N", "affiliation":"ST. FRANCIS COLLEGE"},
-{"name":"Dr. SIVAPRAKASH C", "affiliation":"Visvesvaraya Technological University, Belagavi - Karnataka"}
+{"name":"Dr. SIVAPRAKASH C", "affiliation":"Visvesvaraya Technological University, Belagavi - Karnataka"},
+{"name":"Dr. Akansha Rajora ", "affiliation":"Suresh Gyan Vihar University, Jaipur, Rajasthan"},
+{"name":"Prof. (Dr.) VANDANA  RATHORE", "affiliation":"UNIVERSITY OF ALLAHABAD"}
   ]
   },
 
